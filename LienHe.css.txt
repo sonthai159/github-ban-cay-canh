@@ -1,0 +1,384 @@
+* {
+    đệm :  0 ;
+    lề :  0 ;
+}
+cơ thể {
+    font-family :  'Open Sans' , sans-serif;
+    / * background: linear-gradient (90deg, xám 0%, vàng 100%); * /
+    màu nền :  # EEE ;
+}
+
+
+
+/ * Khoi header Chá »© a Logo * /
+. TopHeader {
+    màu nền :  # ddd ;
+    chiều rộng :  100 % ;
+    chiều cao :  40 px ;
+    vị trí : dính;
+    đầu trang : 0 ;
+    trái :  0 ;
+    chỉ số z :  100 ;
+}
+. TopHeader . Vùng chứa {
+    chiều rộng :  85 % ;
+    chiều cao :  100 % ;
+    margin : tự động;
+}
+. TopHeader  a {
+    văn bản-trang trí : không có;
+    màu :  # 005d04 ;
+    font-weight :  600 ;
+    kích thước phông chữ :  15 px ;
+}
+. TopHeader  a : hover {
+    màu sắc : đen;
+    
+}
+. TopHeader  ul {
+    list-style : none;
+    float : phải;
+    hiển thị : flex;
+    đệm :  5 px  5 px ;
+}
+. TopHeader  ul  li {
+    đệm :  5 px  0  5 px  18 px ;
+    text-biến đổi : chữ hoa;
+}
+. Đường dây nóng {
+    đệm :  11 px ;
+    float : trái;
+}
+. Đường dây nóng  tôi {
+    màu sắc : đỏ;
+}
+. GioHang {
+    float : phải;
+    nền :  # F28902 ;
+    màu :  # FFF ;
+    đệm :  11 px  10 px ;
+    lề trái :  15 px ;
+    kích thước phông chữ :  11 px ;
+}
+. GioHang  a {
+    màu : trắng;
+    padding-left :  4 px ;
+}
+. GioHang  a  i {
+    lề phải :  5 px ;
+
+}
+/ * 
+het tiêu đề trên cùng * /
+/ * // Khoi Header * /
+. Tiêu đề {
+    chiều rộng :  100 % ;
+    chiều cao :  100 px ;
+    màu nền : trắng;
+}
+. Vùng chứa {
+    chiều rộng :  85 % ;
+    chiều cao :  100 % ;
+    margin : tự động;
+}
+. Tiêu đề . Vùng chứa  một {
+    / * padding: 10px 10px 10px 0; * /
+    float : trái;
+}
+. Tiêu đề . Bình chứa . widget-head {
+    float : trái;
+    kích thước phông chữ :  20 px ;
+    màu :  # 090 ;
+    margin-top :  20 px ;
+    
+}
+
+. Tiêu đề . Bình chứa . widget-head  span {
+    kích thước phông chữ :  25 px ;
+    font-weight : bold;
+    màu :  # FF8000 ;
+    float : trái;
+    margin-top :  10 px ;
+}
+. TimKiem {
+    chiều rộng :  300 px ;
+    float : phải;
+    margin-top :  30 px ;
+}
+. TimKiem  # TimKiem {
+    viền :  1 px đặc # CCC ;
+    border-bottom-width :  2 px ;
+    border-right : không có;
+    đệm :  10 px  10 px ;
+    chiều rộng :  calc ( 100 %  -  100 px );
+    float : trái;
+    bán kính đường viền :  5 px  0  0  5 px ;
+}
+. Đầu  vào TimKiem [ type = "button" ] {
+    chiều rộng :  79 px ;
+    chiều cao :  38 px ;
+    màu nền :  # a7f54b ;
+    biên giới : không có;
+    màu : trắng;
+    bán kính đường viền :  5 px ;
+}
+. TimKiem  input [ type = "button" ] : hover {
+    màu nền :  # 427900 ;
+}
+/ * Het Khá »i Header Chá» © a Logo * /
+
+
+
+
+/ * Khoi Can Giua Man Hinh * /
+. CanGiua {
+    chiều rộng :  85 % ;
+    chiều cao : tự động;
+    margin : tự động;
+}
+
+
+/ * KhoiMenu * /
+. kho Sampleuc1 {
+    màu nền :  # 3daa12 ;
+    chiều rộng :  100 % ;
+    chiều cao : tự động;
+    vị trí : dính;
+    đầu : 40 px ;
+    trái :  0 ;
+    chỉ số z :  100 ;
+}
+. kho Sampleuc1 . menu {
+    hiển thị : flex;
+    chiều rộng :  85 % ;
+    margin : tự động;
+    chiều cao :  100 % ;
+}
+. kho Sampleuc1 . menu  >  li {
+    list-style : none;
+    font-family :  'Open Sans' , sans-serif;
+    chức vụ : thân nhân;
+}
+. kho Sampleuc1 . menu  li   >  a {
+    văn bản-trang trí : không có;
+    kích thước phông chữ :  14 px ;
+    font-weight :  500 ;
+    display : inline-block;
+    đệm :  17 px  16 px ;
+    màu : trắng;
+    
+}
+. kho Sampleuc1 . menu  li : di chuột . menuc2 {
+    
+    hiển thị : khối;
+}
+. kho Sampleuc1 . menu  li  >  a : hover {
+    màu nền :  rgb ( 15 ,  97 ,  15 );
+}
+. kho Sampleuc1 . thực đơn . menuc2 . item2  a : di chuột {
+    màu nền :  # 2b8807 ;
+}
+
+. kho Sampleuc1 . thực đơn . menuc2 {
+    vị trí : tuyệt đối;
+    hiển thị : không có;
+    đầu : 50 px ;
+    trái :  0 px ;
+    chỉ số z :  199 ;
+}
+. kho Sampleuc1 . thực đơn . menuc2 . item2 {
+    list-style : none;
+}
+. kho Sampleuc1 . thực đơn . menuc2 . item2  a {
+    
+    màu nền :  # 3daa12 ;
+    viền-dưới :  rgba đặc 1 px ( 150 , 150 , 150 , 0,15 );   
+    đệm :  9 px  15 px ;
+    chiều rộng :  165 px ;
+    kích thước phông chữ :  13 px ;
+    văn bản-trang trí : không có;
+    màu :  # FFF ;
+    font-weight :  400 ;
+    text-align : left;
+}
+/ * Menu Het Khoi * /
+
+. BanDoGoogle {
+    chiều rộng :  100 % ;
+    chiều cao : tự động;
+}
+
+
+. TrangLienHe {
+    chiều rộng :  100 % ;
+    chiều cao :  50 px ;
+    màu nền : trắng;
+}
+. TrangLienHe  a {
+    màu :  # 333 ;
+    kích thước phông chữ :  14 px ;
+    padding-right :  10 px ;
+    float : trái;
+    văn bản-trang trí : không có;
+    padding-top :  18 px ;
+}
+. TrangLienHe  a : hover {
+    màu :  # 005d04 ;
+}
+. TrangLienHe  a : after {
+    nội dung :  "\ f101" ;
+    font-family :  'FontAwesome' ;
+    màu :  # 04476d ;
+    padding-left :  5 px ;
+}
+. TrangLienHe  span {
+    padding-top :  17 px ;
+    màu :  # F28902 ;
+    hiển thị : khối;
+}
+
+. ThongTin {
+    chiều rộng :  100 % ;
+    chiều cao : tự động;
+    lề-dưới :  20 px ;
+}
+. ThongTin . CanGiua {
+    hiển thị : flex;
+    màu nền : trắng;
+}
+. ThongTin . CanGiua . DiaChiCongTy {
+    chiều rộng :  35 % ;
+    chiều cao : tự động;
+    lề :  15 px ;
+}
+. ThongTin . CanGiua . ThongTinKhachHang {
+    chiều rộng :  60 % ;
+    chiều cao : tự động;
+}
+. ThongTin . CanGiua . ThongTinKhachHang  # ND {
+    chiều cao :  50 px ;
+}
+. ThongTin . CanGiua . ThongTinKhachHang . btn {
+    chiều rộng :  100 px ;
+    chiều cao :  50 px ;
+    màu nền :  # F28902 ;
+    biên giới : không có;
+    màu : trắng;
+    kích thước phông chữ :  16 px ;
+    float : trái;
+    lề phải :  15 px ;
+}
+. DiaChiCongTy  h2 {
+    chiều rộng :  100 % ;
+    float : trái;
+    font-weight :  600 ;
+    màu sắc : xanh lá cây;
+    kích thước phông chữ :  18 px ;
+    text-biến đổi : chữ hoa;
+    margin-bottom :  10 px ;
+}
+. DiaChiCongTy  p  i {
+    padding-right :  5 px ;
+}
+. DiaChiCongTy  a {
+    padding-left :  5 px ;
+    văn bản-trang trí : không có;
+    màu sắc : đen;
+}
+. DiaChiCongTy  a : di chuột {
+    màu :  # 090 ;
+}
+. ThongTin . CanGiua . Đầu vào ThongTinKhachHang  {
+    hiển thị : khối;
+    chiều rộng :  600 px ;
+    đệm :  10 px ;
+    margin-bottom :  10 px ;
+}
+
+
+
+
+/ * Nut Back To Top * /
+/ * Nut Back To Top * /
+. BackToTop {
+    vị trí : cố định;
+    bên phải :  15 px ;
+    đáy :  5 px ;
+    chiều cao :  55 px ;
+    chiều rộng :  55 px ;
+    bán kính biên giới :  50 % ;
+    background-color : xanh lá cây;
+    màu : trắng;
+    con trỏ : con trỏ;
+    độ mờ :  0,8 ;
+}
+. BackToTop  tôi {
+    đệm :  10 px  17 px ;
+    kích thước phông chữ :  35 px ;
+    animation : NhayLenCao 1 giây chuyển tiếp vô hạn;
+}
+@ -webkit-keyframes NhayLenCao {
+    0 % {
+        biến đổi :  translateY ( 3 px );
+    }
+    100 % {
+        biến đổi :  translateY ( -8 px );
+    }
+}
+
+/ * Het NUt BackToTop * /
+
+
+
+
+
+/ * Chân trang Div * /
+. Chân trang {
+    màu nền : trắng;
+    chiều rộng :  100 % ;
+    chiều cao :  370 px ;
+    màu sắc : đen;
+}
+. Chân trang . Vùng chứa {
+    hiển thị : flex;
+}
+. Chân trang . Bình chứa . _Cot {
+    chiều rộng :  33,3 % ;
+    chiều cao :  100 % ;
+}
+. Chân trang . Bình chứa . _Cot  h2 {
+   
+    padding-top :  20 px ;
+    padding-bottom :  10 px ;
+}
+. Chân trang . Bình chứa . _Cot  img {
+    float : trái;
+}
+. Chân trang . Bình chứa . _Cot  span {
+    chiều cao dòng :  1,6 ;
+}
+. Chân trang . Bình chứa . _Cot  ul {
+    lề trái :  20 px ;
+}
+. Chân trang . Bình chứa . _Cot  ul  li {
+    chiều cao dòng :  30 px ;
+}
+. Chân trang . Bình chứa . _Cot  ul  li  a {
+    văn bản-trang trí : không có;
+    màu sắc : đen;
+    kích thước phông chữ :  14 px ;
+}
+. Chân trang . Bình chứa . _Cot  ul  li  a : di chuột vào {
+    màu :  # 005d04 ;
+}
+
+
+
+/ * ĐỒNG PHỤC DIV * /
+. Bản quyền {
+    padding-top :  25 px ;
+    chiều cao :  50 px ;
+    màu : trắng;
+    background-color : đen;
+}
+

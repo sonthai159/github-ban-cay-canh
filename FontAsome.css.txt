@@ -1,0 +1,4588 @@
+FontAsome.cssChuyển đến nội dung
+Tìm kiếm hoặc chuyển đến…
+
+Yêu cầu kéo s
+Vấn đề
+Thương trường
+Khám phá
+ 
+@ sonthai159 
+xaopaibun
+/
+PhamQuy.github.io
+1
+00
+Code
+Vấn đề
+Kéo yêu cầu
+Action
+Project
+Wiki
+Bảo vệ
+Chi tiết thông tin
+PhamQuy.github.io/CSS/ FontAsome.css
+@xaopaibun
+xaopaibun Pham JIn
+…
+Cam kết mới nhất 7eb16ea on 18 Jun, 2020
+ Lịch sử
+ 1 người đóng góp
+4556 dòng (3076 sloc)  71 KB
+  
+/ *!
+ * Font Awesome Free 5.13.0 của @fontawesome - https://fontawesome.com
+ * Giấy phép - https://fontawesome.com/license/free (Biểu tượng: CC BY 4.0, Phông chữ: SIL OFL 1.1, Mã: Giấy phép MIT)
+ * /
+. fa ,
+. fas ,
+. xa ,
+. fal ,
+. lỗi mốt ,
+. fab {
+  -moz-osx-font-smoothing : thang độ xám;
+  -webkit-font-smoothing : chống răng cưa;
+  display : inline-block;
+  font-style : normal;
+  font-variant : normal;
+  kết xuất văn bản : auto;
+  chiều cao dòng :  1 ; }
+
+. fa-lg {
+  font-size :  1.33333 em ;
+  chiều cao dòng :  0,75 em ;
+  vertical-align :  -.0667 em ; }
+
+. fa-xs {
+  font-size :  .75 em ; }
+
+. fa-sm {
+  font-size :  .875 em ; }
+
+. fa-1x {
+  font-size :  1 em ; }
+
+. fa-2x {
+  font-size :  2 em ; }
+
+. fa-3x {
+  font-size :  3 em ; }
+
+. fa-4x {
+  font-size :  4 em ; }
+
+. fa-5x {
+  font-size :  5 em ; }
+
+. fa-6x {
+  font-size :  6 em ; }
+
+. fa-7x {
+  font-size :  7 em ; }
+
+. fa-8x {
+  font-size :  8 em ; }
+
+. fa-9x {
+  font-size :  9 em ; }
+
+. fa-10x {
+  font-size :  10 em ; }
+
+. fa-fw {
+  text-align : center;
+  chiều rộng :  1,25 em ; }
+
+. fa-ul {
+  list-style-type : none;
+  margin-left :  2,5 em ;
+  padding-left :  0 ; }
+  . fa-ul  >  li {
+    chức vụ : thân nhân; }
+
+. fa-li {
+  còn lại :  -2 em ;
+  vị trí : tuyệt đối;
+  text-align : center;
+  chiều rộng :  2 em ;
+  line-height : inherit; }
+
+. biên giới fa {
+  viền : solid 0,08 em  # eee ;
+  bán kính biên giới :  .1 em ;
+  đệm :  .2 em  .25 em  .15 em ; }
+
+. fa-pull-left {
+  float : trái; }
+
+. fa-pull-right {
+  float : phải; }
+
+. fa . fa-pull-left ,
+. phát xít . fa-pull-left ,
+. xa . fa-pull-left ,
+. chụt chụt . fa-pull-left ,
+. nói xấu . fa-pull-left {
+  margin-right :  .3 em ; }
+
+. fa . fa-pull-right ,
+. phát xít . fa-pull-right ,
+. xa . fa-pull-right ,
+. chụt chụt . fa-pull-right ,
+. nói xấu . fa-pull-right {
+  margin-left :  .3 em ; }
+
+. fa-spin {
+  -webkit-animation : fa-spin 2 s tuyến tính vô hạn;
+          hoạt hình : fa-spin 2 s tuyến tính vô hạn; }
+
+. xung fa {
+  -webkit-animation : fa-spin 1 s bước vô hạn ( 8 );
+          hoạt hình : fa-spin 1 s bước vô hạn ( 8 ); }
+
+@ -webkit-keyframes fa-spin {
+  0 % {
+    -webkit-biến đổi :  xoay ( 0 độ );
+            biến đổi :  xoay ( 0 độ ); }
+  100 % {
+    -webkit-biến đổi :  xoay ( 360 độ );
+            biến đổi :  xoay ( 360 độ ); }}
+
+@keyframes fa-spin {
+  0 % {
+    -webkit-biến đổi :  xoay ( 0 độ );
+            biến đổi :  xoay ( 0 độ ); }
+  100 % {
+    -webkit-biến đổi :  xoay ( 360 độ );
+            biến đổi :  xoay ( 360 độ ); }}
+
+. fa-xoay-90 {
+  -ms-filter :  "progid: DXImageTransform.Microsoft.BasicImage (xoay = 1)" ;
+  -webkit-biến đổi :  xoay ( 90 độ );
+          biến đổi :  xoay ( 90 độ ); }
+
+. fa-xoay-180 {
+  -ms-filter :  "progid: DXImageTransform.Microsoft.BasicImage (xoay = 2)" ;
+  -webkit-biến đổi :  xoay ( 180 độ );
+          biến đổi :  xoay ( 180 độ ); }
+
+. fa-xoay-270 {
+  -ms-filter :  "progid: DXImageTransform.Microsoft.BasicImage (xoay = 3)" ;
+  -webkit-biến đổi :  xoay ( 270 độ );
+          biến đổi :  xoay ( 270 độ ); }
+
+. fa-flip-ngang {
+  -ms-filter :  "progid: DXImageTransform.Microsoft.BasicImage (xoay = 0, mirror = 1)" ;
+  -webkit-biến đổi :  scale ( -1 ,  1 );
+          biến đổi :  scale ( -1 ,  1 ); }
+
+. fa-lật-dọc {
+  -ms-filter :  "progid: DXImageTransform.Microsoft.BasicImage (xoay = 2, mirror = 1)" ;
+  -webkit-biến đổi :  scale ( 1 ,  -1 );
+          biến đổi :  scale ( 1 ,  -1 ); }
+
+. fa-lật-cả , . fa-lật-ngang . fa-lật-dọc {
+  -ms-filter :  "progid: DXImageTransform.Microsoft.BasicImage (xoay = 2, mirror = 1)" ;
+  -webkit-biến đổi :  scale ( -1 ,  -1 );
+          biến đổi :  scale ( -1 ,  -1 ); }
+
+: gốc . fa-xoay-90 ,
+: gốc . fa-xoay-180 ,
+: gốc . fa-xoay-270 ,
+: gốc . fa-lật-ngang ,
+: gốc . fa-lật-dọc ,
+: gốc . fa-flip-cả hai {
+  -webkit-filter : không có;
+          bộ lọc : không có; }
+
+. fa-stack {
+  display : inline-block;
+  chiều cao :  2 em ;
+  chiều cao dòng :  2 em ;
+  chức vụ : thân nhân;
+  vertical-align : giữa;
+  chiều rộng :  2,5 em ; }
+
+. fa-stack-1x ,
+. fa-stack-2x {
+  trái :  0 ;
+  vị trí : tuyệt đối;
+  text-align : center;
+  chiều rộng :  100 % ; }
+
+. fa-stack-1x {
+  line-height : inherit; }
+
+. fa-stack-2x {
+  font-size :  2 em ; }
+
+. nghịch đảo fa {
+  màu :  # fff ; }
+
+/ * Font Awesome sử dụng Khu vực sử dụng riêng Unicode (PUA) để đảm bảo màn hình
+người đọc không đọc các ký tự ngẫu nhiên đại diện cho các biểu tượng * /
+. fa-500px : trước {
+  nội dung :  "\ f26e" ; }
+
+. fa-access-icon : trước {
+  nội dung :  "\ f368" ; }
+
+. fa-accoft : trước {
+  nội dung :  "\ f369" ; }
+
+. fa-Collections-integration : trước đây {
+  nội dung :  "\ f6af" ; }
+
+. fa-ad : trước {
+  nội dung :  "\ f641" ; }
+
+. fa-address-book : trước {
+  nội dung :  "\ f2b9" ; }
+
+. fa-address-card : before {
+  nội dung :  "\ f2bb" ; }
+
+. fa-điều chỉnh : trước {
+  nội dung :  "\ f042" ; }
+
+. fa-adn : trước {
+  nội dung :  "\ f170" ; }
+
+. fa-adobe : trước {
+  nội dung :  "\ f778" ; }
+
+. fa-adversal : trước {
+  nội dung :  "\ f36a" ; }
+
+. fa-affiliatetheme : trước {
+  nội dung :  "\ f36b" ; }
+
+. fa-air-freshhener : trước {
+  nội dung :  "\ f5d0" ; }
+
+. fa-airbnb : trước {
+  nội dung :  "\ f834" ; }
+
+. fa-algolia : trước {
+  nội dung :  "\ f36c" ; }
+
+. fa-align-center : trước {
+  nội dung :  "\ f037" ; }
+
+. fa-align-justify : trước {
+  nội dung :  "\ f039" ; }
+
+. fa-align-left : trước {
+  nội dung :  "\ f036" ; }
+
+. fa-align-right : trước {
+  nội dung :  "\ f038" ; }
+
+. fa-alipay : trước {
+  nội dung :  "\ f642" ; }
+
+. dị ứng fa : trước {
+  nội dung :  "\ f461" ; }
+
+. fa-amazon : trước {
+  nội dung :  "\ f270" ; }
+
+. fa-amazon-pay : trước {
+  nội dung :  "\ f42c" ; }
+
+. fa-ambulance : trước {
+  nội dung :  "\ f0f9" ; }
+
+. fa-american-ký-ngôn-ngữ-thông-dịch : trước {
+  nội dung :  "\ f2a3" ; }
+
+. fa-amilia : trước {
+  nội dung :  "\ f36d" ; }
+
+. fa-anchor : trước {
+  nội dung :  "\ f13d" ; }
+
+. fa-android : trước {
+  nội dung :  "\ f17b" ; }
+
+. fa-angellist : trước {
+  nội dung :  "\ f209" ; }
+
+. fa-angle-double-down : trước {
+  nội dung :  "\ f103" ; }
+
+. fa-angle-double-left : trước {
+  nội dung :  "\ f100" ; }
+
+. fa-angle-double-right : trước {
+  nội dung :  "\ f101" ; }
+
+. fa-angle-double-up : trước {
+  nội dung :  "\ f102" ; }
+
+. fa-angle-down : trước {
+  nội dung :  "\ f107" ; }
+
+. fa-angle-left : trước {
+  nội dung :  "\ f104" ; }
+
+. fa-angle-right : trước {
+  nội dung :  "\ f105" ; }
+
+. fa-angle-up : trước {
+  nội dung :  "\ f106" ; }
+
+. fa-giận : trước khi {
+  nội dung :  "\ f556" ; }
+
+. fa-Angcreative : trước {
+  nội dung :  "\ f36e" ; }
+
+. fa-angle : trước {
+  nội dung :  "\ f420" ; }
+
+. fa-ankh : trước {
+  nội dung :  "\ f644" ; }
+
+. fa-app-store : trước {
+  nội dung :  "\ f36f" ; }
+
+. fa-app-store-ios : before {
+  nội dung :  "\ f370" ; }
+
+. fa-apper : trước {
+  nội dung :  "\ f371" ; }
+
+. fa-apple : trước {
+  nội dung :  "\ f179" ; }
+
+. fa-apple-alt : trước {
+  nội dung :  "\ f5d1" ; }
+
+. fa-apple-pay : trước {
+  nội dung :  "\ f415" ; }
+
+. fa-archive : trước {
+  nội dung :  "\ f187" ; }
+
+. fa-Archway : trước {
+  nội dung :  "\ f557" ; }
+
+. fa-arrow-alt-circle-down : before {
+  nội dung :  "\ f358" ; }
+
+. fa-arrow-alt-circle-left : trước {
+  nội dung :  "\ f359" ; }
+
+. fa-arrow-alt-circle-right : trước {
+  nội dung :  "\ f35a" ; }
+
+. fa-arrow-alt-circle-up : trước {
+  nội dung :  "\ f35b" ; }
+
+. fa-arrow-circle-down : before {
+  nội dung :  "\ f0ab" ; }
+
+. fa-arrow-circle-left : trước {
+  nội dung :  "\ f0a8" ; }
+
+. fa-arrow-circle-right : trước {
+  nội dung :  "\ f0a9" ; }
+
+. fa-arrow-circle-up : trước {
+  nội dung :  "\ f0aa" ; }
+
+. fa-arrow-down : trước {
+  nội dung :  "\ f063" ; }
+
+. fa-arrow-left : trước {
+  nội dung :  "\ f060" ; }
+
+. fa-arrow-right : trước {
+  nội dung :  "\ f061" ; }
+
+. fa-arrow-up : trước {
+  nội dung :  "\ f062" ; }
+
+. fa-arrows-alt : trước {
+  nội dung :  "\ f0b2" ; }
+
+. fa-arrows-alt-h : trước {
+  nội dung :  "\ f337" ; }
+
+. fa-arrows-alt-v : trước {
+  nội dung :  "\ f338" ; }
+
+. fa-artstation : trước {
+  nội dung :  "\ f77a" ; }
+
+. fa-assistive-listening-systems : before {
+  nội dung :  "\ f2a2" ; }
+
+. fa-asterisk : trước {
+  nội dung :  "\ f069" ; }
+
+. fa-asymmetrik : trước {
+  nội dung :  "\ f372" ; }
+
+. fa-at : trước {
+  nội dung :  "\ f1fa" ; }
+
+. fa-atlas : trước {
+  nội dung :  "\ f558" ; }
+
+. fa-atlassian : trước {
+  nội dung :  "\ f77b" ; }
+
+. fa-atom : trước {
+  nội dung :  "\ f5d2" ; }
+
+. fa-audible : trước {
+  nội dung :  "\ f373" ; }
+
+. fa-audio-description : trước {
+  nội dung :  "\ f29e" ; }
+
+. fa-autoprefixer : trước {
+  nội dung :  "\ f41c" ; }
+
+. fa-avianex : trước {
+  nội dung :  "\ f374" ; }
+
+. fa-aviato : trước {
+  nội dung :  "\ f421" ; }
+
+. fa-Prize : trước {
+  nội dung :  "\ f559" ; }
+
+. fa-aws : trước {
+  nội dung :  "\ f375" ; }
+
+. fa-baby : trước đây {
+  nội dung :  "\ f77c" ; }
+
+. fa-xe-nôi : trước {
+  nội dung :  "\ f77d" ; }
+
+. fa-backspace : trước {
+  nội dung :  "\ f55a" ; }
+
+. fa-back : trước {
+  nội dung :  "\ f04a" ; }
+
+. fa-bacon : trước {
+  nội dung :  "\ f7e5" ; }
+
+. fa-bahai : trước {
+  nội dung :  "\ f666" ; }
+
+. fa-balance-scale : trước {
+  nội dung :  "\ f24e" ; }
+
+. fa-balance-scale-left : trước {
+  nội dung :  "\ f515" ; }
+
+. fa-balance-scale-right : trước {
+  nội dung :  "\ f516" ; }
+
+. fa-ban : trước {
+  nội dung :  "\ f05e" ; }
+
+. fa-band-aid : trước {
+  nội dung :  "\ f462" ; }
+
+. fa-bandcamp : trước {
+  nội dung :  "\ f2d5" ; }
+
+. fa-barcode : trước {
+  nội dung :  "\ f02a" ; }
+
+. fa-bar : trước {
+  nội dung :  "\ f0c9" ; }
+
+. fa-bóng chày : trước {
+  nội dung :  "\ f433" ; }
+
+. fa-Basket-ball : trước {
+  nội dung :  "\ f434" ; }
+
+. fa-bath : trước {
+  nội dung :  "\ f2cd" ; }
+
+. fa-pin-hết : trước {
+  nội dung :  "\ f244" ; }
+
+. fa-pin-đầy : trước {
+  nội dung :  "\ f240" ; }
+
+. fa-pin-half : trước {
+  nội dung :  "\ f242" ; }
+
+. fa-pin-quý : trước {
+  nội dung :  "\ f243" ; }
+
+. fa-pin-ba phần tư : trước {
+  nội dung :  "\ f241" ; }
+
+. fa-battle-net : trước {
+  nội dung :  "\ f835" ; }
+
+. giường fa : trước {
+  nội dung :  "\ f236" ; }
+
+. fa-beer : trước {
+  nội dung :  "\ f0fc" ; }
+
+. fa-behaviornce : trước {
+  nội dung :  "\ f1b4" ; }
+
+. fa-behaviornce-square : trước {
+  nội dung :  "\ f1b5" ; }
+
+. fa-bell : trước {
+  nội dung :  "\ f0f3" ; }
+
+. fa-bell-slash : trước {
+  nội dung :  "\ f1f6" ; }
+
+. fa-bezier-curve : trước {
+  nội dung :  "\ f55b" ; }
+
+. fa-bible : trước {
+  nội dung :  "\ f647" ; }
+
+. fa-bike : trước {
+  nội dung :  "\ f206" ; }
+
+. fa-biking : trước {
+  nội dung :  "\ f84a" ; }
+
+. fa-bimobject : trước {
+  nội dung :  "\ f378" ; }
+
+. ống nhòm fa : trước {
+  nội dung :  "\ f1e5" ; }
+
+. fa-biohazard : trước {
+  nội dung :  "\ f780" ; }
+
+. fa-birthday-cake : trước {
+  nội dung :  "\ f1fd" ; }
+
+. fa-bitbucket : trước {
+  nội dung :  "\ f171" ; }
+
+. fa-bitcoin : trước {
+  nội dung :  "\ f379" ; }
+
+. fa-bity : trước {
+  nội dung :  "\ f37a" ; }
+
+. fa-black-tie : trước {
+  nội dung :  "\ f27e" ; }
+
+. fa-blackberry : trước {
+  nội dung :  "\ f37b" ; }
+
+. fa-máy xay sinh tố : trước {
+  nội dung :  "\ f517" ; }
+
+. fa-máy-xay-điện thoại : trước {
+  nội dung :  "\ f6b6" ; }
+
+. fa-mù : trước đây {
+  nội dung :  "\ f29d" ; }
+
+. fa-blog : trước {
+  nội dung :  "\ f781" ; }
+
+. fa-blogger : trước {
+  nội dung :  "\ f37c" ; }
+
+. fa-blogger-b : trước {
+  nội dung :  "\ f37d" ; }
+
+. fa-bluetooth : trước {
+  nội dung :  "\ f293" ; }
+
+. fa-bluetooth-b : trước {
+  nội dung :  "\ f294" ; }
+
+. fa-bold : trước {
+  nội dung :  "\ f032" ; }
+
+. fa-bolt : trước {
+  nội dung :  "\ f0e7" ; }
+
+. fa-bomb : trước {
+  nội dung :  "\ f1e2" ; }
+
+. fa-bone : trước {
+  nội dung :  "\ f5d7" ; }
+
+. fa-bong : trước {
+  nội dung :  "\ f55c" ; }
+
+. fa-book : trước {
+  nội dung :  "\ f02d" ; }
+
+. fa-book-dead : trước {
+  nội dung :  "\ f6b7" ; }
+
+. fa-book-Medical : trước {
+  nội dung :  "\ f7e6" ; }
+
+. fa-book-open : trước {
+  nội dung :  "\ f518" ; }
+
+. fa-book-reader : trước {
+  nội dung :  "\ f5da" ; }
+
+. fa-bookmark : trước {
+  nội dung :  "\ f02e" ; }
+
+. fa-bootstrap : trước {
+  nội dung :  "\ f836" ; }
+
+. fa-border-all : trước {
+  nội dung :  "\ f84c" ; }
+
+. fa-border-none : trước {
+  nội dung :  "\ f850" ; }
+
+. fa-border-style : before {
+  nội dung :  "\ f853" ; }
+
+. fa-bowling-ball : trước {
+  nội dung :  "\ f436" ; }
+
+. fa-box : trước {
+  nội dung :  "\ f466" ; }
+
+. fa-box-open : trước {
+  nội dung :  "\ f49e" ; }
+
+. fa-box-mô : trước {
+  nội dung :  "\ f95b" ; }
+
+. fa-box : trước {
+  nội dung :  "\ f468" ; }
+
+. fa-braille : trước {
+  nội dung :  "\ f2a1" ; }
+
+. fa-brain : trước {
+  nội dung :  "\ f5dc" ; }
+
+. fa-bread-slice : trước {
+  nội dung :  "\ f7ec" ; }
+
+. fa-cặp : trước {
+  nội dung :  "\ f0b1" ; }
+
+. fa-cặp-y tế : trước {
+  nội dung :  "\ f469" ; }
+
+. fa-broadcast-tower : trước {
+  nội dung :  "\ f519" ; }
+
+. fa-chổi : trước {
+  nội dung :  "\ f51a" ; }
+
+. fa-brush : trước {
+  nội dung :  "\ f55d" ; }
+
+. fa-btc : trước {
+  nội dung :  "\ f15a" ; }
+
+. fa-buffer : trước {
+  nội dung :  "\ f837" ; }
+
+. fa-bug : trước {
+  nội dung :  "\ f188" ; }
+
+. fa-building : trước {
+  nội dung :  "\ f1ad" ; }
+
+. fa-bullhorn : trước {
+  nội dung :  "\ f0a1" ; }
+
+. fa-bullseye : trước {
+  nội dung :  "\ f140" ; }
+
+. fa-burn : trước {
+  nội dung :  "\ f46a" ; }
+
+. fa-buromobelexperte : trước {
+  nội dung :  "\ f37f" ; }
+
+. fa-bus : trước {
+  nội dung :  "\ f207" ; }
+
+. fa-bus-alt : trước {
+  nội dung :  "\ f55e" ; }
+
+. fa-business-time : trước {
+  nội dung :  "\ f64a" ; }
+
+. fa-buy-n-large : trước {
+  nội dung :  "\ f8a6" ; }
+
+. fa-buyellads : trước {
+  nội dung :  "\ f20d" ; }
+
+. fa-Calculator : trước {
+  nội dung :  "\ f1ec" ; }
+
+. fa-lịch : trước {
+  nội dung :  "\ f133" ; }
+
+. fa-calendar-alt : trước {
+  nội dung :  "\ f073" ; }
+
+. fa-lịch-kiểm tra : trước {
+  nội dung :  "\ f274" ; }
+
+. fa-lịch-ngày : trước {
+  nội dung :  "\ f783" ; }
+
+. fa-lịch-trừ : trước {
+  nội dung :  "\ f272" ; }
+
+. fa-calendar-plus : trước {
+  nội dung :  "\ f271" ; }
+
+. fa-lịch-lần : trước {
+  nội dung :  "\ f273" ; }
+
+. fa-lịch-tuần : trước {
+  nội dung :  "\ f784" ; }
+
+. fa-camera : trước {
+  nội dung :  "\ f030" ; }
+
+. fa-camera-retro : trước {
+  nội dung :  "\ f083" ; }
+
+. fa-campground : trước {
+  nội dung :  "\ f6bb" ; }
+
+. fa-canadian-maple-leaf : trước {
+  nội dung :  "\ f785" ; }
+
+. fa-candy-cane : trước {
+  nội dung :  "\ f786" ; }
+
+. fa-cannabis : trước {
+  nội dung :  "\ f55f" ; }
+
+. fa-Capsule : trước {
+  nội dung :  "\ f46b" ; }
+
+. fa-car : trước {
+  nội dung :  "\ f1b9" ; }
+
+. fa-car-alt : trước {
+  nội dung :  "\ f5de" ; }
+
+. fa-car-pin : trước {
+  nội dung :  "\ f5df" ; }
+
+. fa-car-crash : trước {
+  nội dung :  "\ f5e1" ; }
+
+. fa-car-side : trước {
+  nội dung :  "\ f5e4" ; }
+
+. fa-caravan : trước {
+  nội dung :  "\ f8ff" ; }
+
+. fa-caret-down : trước {
+  nội dung :  "\ f0d7" ; }
+
+. fa-caret-left : trước {
+  nội dung :  "\ f0d9" ; }
+
+. fa-caret-right : trước {
+  nội dung :  "\ f0da" ; }
+
+. fa-caret-square-down : before {
+  nội dung :  "\ f150" ; }
+
+. fa-caret-square-left : trước {
+  nội dung :  "\ f191" ; }
+
+. fa-caret-square-right : trước {
+  nội dung :  "\ f152" ; }
+
+. fa-caret-square-up : trước {
+  nội dung :  "\ f151" ; }
+
+. fa-caret-up : trước {
+  nội dung :  "\ f0d8" ; }
+
+. fa-cà rốt : trước {
+  nội dung :  "\ f787" ; }
+
+. fa-cart-arrow-down : before {
+  nội dung :  "\ f218" ; }
+
+. fa-cart-plus : trước {
+  nội dung :  "\ f217" ; }
+
+. fa-cash-register : trước {
+  nội dung :  "\ f788" ; }
+
+. fa-cat : trước {
+  nội dung :  "\ f6be" ; }
+
+. fa-cc-amazon-pay : trước {
+  nội dung :  "\ f42d" ; }
+
+. fa-cc-amex : trước {
+  nội dung :  "\ f1f3" ; }
+
+. fa-cc-apple-pay : trước {
+  nội dung :  "\ f416" ; }
+
+. fa-cc-domains-club : trước {
+  nội dung :  "\ f24c" ; }
+
+. fa-cc-khám phá : trước {
+  nội dung :  "\ f1f2" ; }
+
+. fa-cc-jcb : trước {
+  nội dung :  "\ f24b" ; }
+
+. fa-cc-mastercard : trước {
+  nội dung :  "\ f1f1" ; }
+
+. fa-cc-paypal : trước {
+  nội dung :  "\ f1f4" ; }
+
+. fa-cc-sọc : trước {
+  nội dung :  "\ f1f5" ; }
+
+. fa-cc-visa : trước {
+  nội dung :  "\ f1f0" ; }
+
+. fa-centercode : trước {
+  nội dung :  "\ f380" ; }
+
+. fa-centos : trước {
+  nội dung :  "\ f789" ; }
+
+. chứng chỉ fa : trước {
+  nội dung :  "\ f0a3" ; }
+
+. ghế fa : trước {
+  nội dung :  "\ f6c0" ; }
+
+. fa-phấnboard : trước {
+  nội dung :  "\ f51b" ; }
+
+. fa-phấn bảng-giáo viên : trước {
+  nội dung :  "\ f51c" ; }
+
+. trạm sạc fa : trước {
+  nội dung :  "\ f5e7" ; }
+
+. fa-chart-area : before {
+  nội dung :  "\ f1fe" ; }
+
+. fa-chart-bar : before {
+  nội dung :  "\ f080" ; }
+
+. fa-chart-line : before {
+  nội dung :  "\ f201" ; }
+
+. fa-chart-pie : before {
+  nội dung :  "\ f200" ; }
+
+. kiểm tra fa : trước {
+  nội dung :  "\ f00c" ; }
+
+. fa-check-circle : trước {
+  nội dung :  "\ f058" ; }
+
+. fa-check-double : trước {
+  nội dung :  "\ f560" ; }
+
+. fa-check-square : trước {
+  nội dung :  "\ f14a" ; }
+
+. fa-cheese : trước {
+  nội dung :  "\ f7ef" ; }
+
+. fa-cờ vua : trước {
+  nội dung :  "\ f439" ; }
+
+. fa-cờ vua-Bishop : trước {
+  nội dung :  "\ f43a" ; }
+
+. fa-cờ-bàn : trước {
+  nội dung :  "\ f43c" ; }
+
+. fa-cờ-vua : trước {
+  nội dung :  "\ f43f" ; }
+
+. fa-cờ-hiệp sĩ : trước {
+  nội dung :  "\ f441" ; }
+
+. fa-flag-pawn : trước {
+  nội dung :  "\ f443" ; }
+
+. fa-flag-queen : trước {
+  nội dung :  "\ f445" ; }
+
+. fa-flags-rook : trước {
+  nội dung :  "\ f447" ; }
+
+. fa-chevron-circle-down : before {
+  nội dung :  "\ f13a" ; }
+
+. fa-chevron-circle-left : trước {
+  nội dung :  "\ f137" ; }
+
+. fa-chevron-circle-right : trước {
+  nội dung :  "\ f138" ; }
+
+. fa-chevron-circle-up : trước {
+  nội dung :  "\ f139" ; }
+
+. fa-chevron-down : trước {
+  nội dung :  "\ f078" ; }
+
+. fa-chevron-left : trước {
+  nội dung :  "\ f053" ; }
+
+. fa-chevron-right : trước {
+  nội dung :  "\ f054" ; }
+
+. fa-chevron-up : trước {
+  nội dung :  "\ f077" ; }
+
+. fa-con : trước {
+  nội dung :  "\ f1ae" ; }
+
+. fa-chrome : trước {
+  nội dung :  "\ f268" ; }
+
+. fa-chromecast : trước {
+  nội dung :  "\ f838" ; }
+
+. fa-Church : trước {
+  nội dung :  "\ f51d" ; }
+
+. fa-circle : trước {
+  nội dung :  "\ f111" ; }
+
+. fa-circle-notch : trước {
+  nội dung :  "\ f1ce" ; }
+
+. fa-city : trước {
+  nội dung :  "\ f64f" ; }
+
+. fa-clinic-Medical : trước {
+  nội dung :  "\ f7f2" ; }
+
+. fa-clipboard : trước {
+  nội dung :  "\ f328" ; }
+
+. fa-clipboard-check : before {
+  nội dung :  "\ f46c" ; }
+
+. fa-clipboard-list : trước {
+  nội dung :  "\ f46d" ; }
+
+. fa-clock : trước {
+  nội dung :  "\ f017" ; }
+
+. fa-clone : trước {
+  nội dung :  "\ f24d" ; }
+
+. fa-đóng-phụ đề : trước {
+  nội dung :  "\ f20a" ; }
+
+. fa-cloud : trước {
+  nội dung :  "\ f0c2" ; }
+
+. fa-cloud-download-alt : before {
+  nội dung :  "\ f381" ; }
+
+. fa-cloud-Meatball : trước {
+  nội dung :  "\ f73b" ; }
+
+. fa-cloud-moon : trước {
+  nội dung :  "\ f6c3" ; }
+
+. fa-cloud-moon-rain : trước {
+  nội dung :  "\ f73c" ; }
+
+. fa-cloud-rain : trước {
+  nội dung :  "\ f73d" ; }
+
+. fa-mây-mưa-nhiều : trước {
+  nội dung :  "\ f740" ; }
+
+. fa-cloud-sun : trước {
+  nội dung :  "\ f6c4" ; }
+
+. fa-cloud-sun-rain : trước {
+  nội dung :  "\ f743" ; }
+
+. fa-cloud-upload-alt : before {
+  nội dung :  "\ f382" ; }
+
+. fa-cloudcale : trước {
+  nội dung :  "\ f383" ; }
+
+. fa-cloudmith : trước {
+  nội dung :  "\ f384" ; }
+
+. fa-cloudversify : trước {
+  nội dung :  "\ f385" ; }
+
+. fa-cocktail : trước {
+  nội dung :  "\ f561" ; }
+
+. fa-code : trước {
+  nội dung :  "\ f121" ; }
+
+. fa-code-branch : before {
+  nội dung :  "\ f126" ; }
+
+. fa-codepen : trước {
+  nội dung :  "\ f1cb" ; }
+
+. fa-codiepie : trước {
+  nội dung :  "\ f284" ; }
+
+. fa-coffee : trước {
+  nội dung :  "\ f0f4" ; }
+
+. fa-cog : trước {
+  nội dung :  "\ f013" ; }
+
+. fa-cogs : trước {
+  nội dung :  "\ f085" ; }
+
+. fa-coins : trước {
+  nội dung :  "\ f51e" ; }
+
+. cột fa : trước {
+  nội dung :  "\ f0db" ; }
+
+. fa-comment : trước {
+  nội dung :  "\ f075" ; }
+
+. fa-comment-alt : before {
+  nội dung :  "\ f27a" ; }
+
+. fa-comment-dollar : before {
+  nội dung :  "\ f651" ; }
+
+. fa-comment-dot : trước {
+  nội dung :  "\ f4ad" ; }
+
+. fa-comment-Medical : trước {
+  nội dung :  "\ f7f5" ; }
+
+. fa-comment-slash : trước {
+  nội dung :  "\ f4b3" ; }
+
+. fa-comment : trước {
+  nội dung :  "\ f086" ; }
+
+. fa-comments-dollar : trước {
+  nội dung :  "\ f653" ; }
+
+. fa-compact-disk : trước {
+  nội dung :  "\ f51f" ; }
+
+. fa-la bàn : trước {
+  nội dung :  "\ f14e" ; }
+
+. fa-nén : trước {
+  nội dung :  "\ f066" ; }
+
+. fa-nén-alt : trước {
+  nội dung :  "\ f422" ; }
+
+. fa-nén-mũi tên-alt : trước {
+  nội dung :  "\ f78c" ; }
+
+. fa-concierge-bell : trước {
+  nội dung :  "\ f562" ; }
+
+. hợp lưu fa : trước {
+  nội dung :  "\ f78d" ; }
+
+. fa-connectdevelop : trước {
+  nội dung :  "\ f20e" ; }
+
+. fa-contao : trước {
+  nội dung :  "\ f26d" ; }
+
+. fa-cookie : trước {
+  nội dung :  "\ f563" ; }
+
+. fa-cookie-cắn : trước {
+  nội dung :  "\ f564" ; }
+
+. fa-copy : trước {
+  nội dung :  "\ f0c5" ; }
+
+. fa-copyright : trước {
+  nội dung :  "\ f1f9" ; }
+
+. fa-bông-cục : trước {
+  nội dung :  "\ f89e" ; }
+
+. fa-couch : trước {
+  nội dung :  "\ f4b8" ; }
+
+. fa-cpanel : trước {
+  nội dung :  "\ f388" ; }
+
+. fa-creative-commons : trước {
+  nội dung :  "\ f25e" ; }
+
+. fa-creative-commons-by : trước {
+  nội dung :  "\ f4e7" ; }
+
+. fa-creative-commons-nc : trước {
+  nội dung :  "\ f4e8" ; }
+
+. fa-creative-commons-nc-eu : trước {
+  nội dung :  "\ f4e9" ; }
+
+. fa-creative-commons-nc-jp : before {
+  nội dung :  "\ f4ea" ; }
+
+. fa-creative-commons-nd : before {
+  nội dung :  "\ f4eb" ; }
+
+. fa-creative-commons-pd : before {
+  nội dung :  "\ f4ec" ; }
+
+. fa-creative-commons-pd-alt : before {
+  nội dung :  "\ f4ed" ; }
+
+. fa-creative-commons-remix : trước {
+  nội dung :  "\ f4ee" ; }
+
+. fa-creative-commons-sa : before {
+  nội dung :  "\ f4ef" ; }
+
+. fa-creative-commons-sampling : before {
+  nội dung :  "\ f4f0" ; }
+
+. fa-creative-commons-sampling-plus : trước {
+  nội dung :  "\ f4f1" ; }
+
+. fa-creative-commons-share : before {
+  nội dung :  "\ f4f2" ; }
+
+. fa-creative-commons-zero : trước {
+  nội dung :  "\ f4f3" ; }
+
+. fa-credit-card : trước {
+  nội dung :  "\ f09d" ; }
+
+. fa-critical-role : trước {
+  nội dung :  "\ f6c9" ; }
+
+. fa-crop : trước {
+  nội dung :  "\ f125" ; }
+
+. fa-crop-alt : trước {
+  nội dung :  "\ f565" ; }
+
+. fa-cross : trước {
+  nội dung :  "\ f654" ; }
+
+. fa-crosshairs : trước {
+  nội dung :  "\ f05b" ; }
+
+. fa-crow : trước {
+  nội dung :  "\ f520" ; }
+
+. fa-Crown : trước {
+  nội dung :  "\ f521" ; }
+
+. fa-nạng : trước {
+  nội dung :  "\ f7f7" ; }
+
+. fa-css3 : trước {
+  nội dung :  "\ f13c" ; }
+
+. fa-css3-alt : trước {
+  nội dung :  "\ f38b" ; }
+
+. fa-cube : trước {
+  nội dung :  "\ f1b2" ; }
+
+. fa-cubes : trước {
+  nội dung :  "\ f1b3" ; }
+
+. fa-cut : trước {
+  nội dung :  "\ f0c4" ; }
+
+. fa-cuttlefish : trước {
+  nội dung :  "\ f38c" ; }
+
+. fa-d-and-d : trước {
+  nội dung :  "\ f38d" ; }
+
+. fa-d-and-d-beyond : trước đây {
+  nội dung :  "\ f6ca" ; }
+
+. fa-dailymotion : trước {
+  nội dung :  "\ f952" ; }
+
+. fa-dashcube : trước {
+  nội dung :  "\ f210" ; }
+
+. fa-database : trước {
+  nội dung :  "\ f1c0" ; }
+
+. fa-điếc : trước đây {
+  nội dung :  "\ f2a4" ; }
+
+. fa-ngon : trước đây {
+  nội dung :  "\ f1a5" ; }
+
+. fa-Democrat : trước đây {
+  nội dung :  "\ f747" ; }
+
+. fa-deploydog : trước {
+  nội dung :  "\ f38e" ; }
+
+. fa-Deskpro : trước {
+  nội dung :  "\ f38f" ; }
+
+. fa-desktop : trước {
+  nội dung :  "\ f108" ; }
+
+. fa-dev : trước {
+  nội dung :  "\ f6cc" ; }
+
+. fa-tàantart : trước {
+  nội dung :  "\ f1bd" ; }
+
+. fa-dharmachakra : trước {
+  nội dung :  "\ f655" ; }
+
+. fa-dhl : trước {
+  nội dung :  "\ f790" ; }
+
+. chẩn đoán fa : trước {
+  nội dung :  "\ f470" ; }
+
+. fa-diaspora : trước {
+  nội dung :  "\ f791" ; }
+
+. fa-dice : trước {
+  nội dung :  "\ f522" ; }
+
+. fa-dice-d20 : trước {
+  nội dung :  "\ f6cf" ; }
+
+. fa-dice-d6 : trước {
+  nội dung :  "\ f6d1" ; }
+
+. fa-dice-five : trước {
+  nội dung :  "\ f523" ; }
+
+. fa-dice-four : trước {
+  nội dung :  "\ f524" ; }
+
+. fa-dice-one : trước {
+  nội dung :  "\ f525" ; }
+
+. fa-dice-six : trước {
+  nội dung :  "\ f526" ; }
+
+. fa-dice-ba : trước {
+  nội dung :  "\ f527" ; }
+
+. fa-dice-hai : trước {
+  nội dung :  "\ f528" ; }
+
+. fa-digg : trước {
+  nội dung :  "\ f1a6" ; }
+
+. fa-digital-ocean : trước {
+  nội dung :  "\ f391" ; }
+
+. fa-digital-tachograph : trước {
+  nội dung :  "\ f566" ; }
+
+. fa-chỉ đường : trước {
+  nội dung :  "\ f5eb" ; }
+
+. fa-discord : trước {
+  nội dung :  "\ f392" ; }
+
+. fa-discourse : trước {
+  nội dung :  "\ f393" ; }
+
+. bệnh fa : trước đây {
+  nội dung :  "\ f7fa" ; }
+
+. fa-chia : trước {
+  nội dung :  "\ f529" ; }
+
+. fa-chóng mặt : trước {
+  nội dung :  "\ f567" ; }
+
+. fa-dna : trước {
+  nội dung :  "\ f471" ; }
+
+. fa-dochub : trước {
+  nội dung :  "\ f394" ; }
+
+. fa-docker : trước {
+  nội dung :  "\ f395" ; }
+
+. fa-dog : trước {
+  nội dung :  "\ f6d3" ; }
+
+. fa-đô-la-ký : trước {
+  nội dung :  "\ f155" ; }
+
+. fa-dolly : trước {
+  nội dung :  "\ f472" ; }
+
+. fa-dolly-flatbed : trước {
+  nội dung :  "\ f474" ; }
+
+. fa-donate : trước {
+  nội dung :  "\ f4b9" ; }
+
+. fa-door-closed : trước khi {
+  nội dung :  "\ f52a" ; }
+
+. fa-door-open : trước {
+  nội dung :  "\ f52b" ; }
+
+. fa-dot-circle : trước {
+  nội dung :  "\ f192" ; }
+
+. fa-dove : trước {
+  nội dung :  "\ f4ba" ; }
+
+. fa-download : trước {
+  nội dung :  "\ f019" ; }
+
+. fa-Draft2digital : trước {
+  nội dung :  "\ f396" ; }
+
+. fa-phác thảo-la bàn : trước {
+  nội dung :  "\ f568" ; }
+
+. fa-dragon : trước {
+  nội dung :  "\ f6d5" ; }
+
+. fa-draw-polygon : before {
+  nội dung :  "\ f5ee" ; }
+
+. fa-dribbble : trước {
+  nội dung :  "\ f17d" ; }
+
+. fa-dribbble-square : trước {
+  nội dung :  "\ f397" ; }
+
+. fa-dropbox : trước {
+  nội dung :  "\ f16b" ; }
+
+. fa-drum : trước {
+  nội dung :  "\ f569" ; }
+
+. fa-drum-steelpan : trước {
+  nội dung :  "\ f56a" ; }
+
+. fa-dùi trống-cắn : trước {
+  nội dung :  "\ f6d7" ; }
+
+. fa-drupal : trước {
+  nội dung :  "\ f1a9" ; }
+
+. fa-tạ : trước {
+  nội dung :  "\ f44b" ; }
+
+. fa-dumpster : trước {
+  nội dung :  "\ f793" ; }
+
+. fa-dumpster-fire : trước {
+  nội dung :  "\ f794" ; }
+
+. fa-dungeon : trước {
+  nội dung :  "\ f6d9" ; }
+
+. fa-dyalog : trước {
+  nội dung :  "\ f399" ; }
+
+. fa-earlybirds : trước {
+  nội dung :  "\ f39a" ; }
+
+. fa-ebay : trước {
+  nội dung :  "\ f4f4" ; }
+
+. fa-edge : trước {
+  nội dung :  "\ f282" ; }
+
+. fa-edit : trước {
+  nội dung :  "\ f044" ; }
+
+. fa-egg : trước {
+  nội dung :  "\ f7fb" ; }
+
+. fa-eject : trước {
+  nội dung :  "\ f052" ; }
+
+. fa-elementor : trước {
+  nội dung :  "\ f430" ; }
+
+. fa-ellipsis-h : trước {
+  nội dung :  "\ f141" ; }
+
+. fa-ellipsis-v : trước {
+  nội dung :  "\ f142" ; }
+
+. fa-ello : trước {
+  nội dung :  "\ f5f1" ; }
+
+. fa-ember : trước {
+  nội dung :  "\ f423" ; }
+
+. fa-Empire : trước {
+  nội dung :  "\ f1d1" ; }
+
+. fa-phong bì : trước {
+  nội dung :  "\ f0e0" ; }
+
+. fa-phong bì-mở : trước {
+  nội dung :  "\ f2b6" ; }
+
+. fa-phong bì-mở-văn bản : trước {
+  nội dung :  "\ f658" ; }
+
+. fa-phong bì-hình vuông : trước {
+  nội dung :  "\ f199" ; }
+
+. fa-envira : trước {
+  nội dung :  "\ f299" ; }
+
+. fa-bằng : trước {
+  nội dung :  "\ f52c" ; }
+
+.fa-eraser:before {
+  content: "\f12d"; }
+
+.fa-erlang:before {
+  content: "\f39d"; }
+
+.fa-ethereum:before {
+  content: "\f42e"; }
+
+.fa-ethernet:before {
+  content: "\f796"; }
+
+.fa-etsy:before {
+  content: "\f2d7"; }
+
+.fa-euro-sign:before {
+  content: "\f153"; }
+
+.fa-evernote:before {
+  content: "\f839"; }
+
+.fa-exchange-alt:before {
+  content: "\f362"; }
+
+.fa-exclamation:before {
+  content: "\f12a"; }
+
+.fa-exclamation-circle:before {
+  content: "\f06a"; }
+
+.fa-exclamation-triangle:before {
+  content: "\f071"; }
+
+.fa-expand:before {
+  content: "\f065"; }
+
+.fa-expand-alt:before {
+  content: "\f424"; }
+
+.fa-expand-arrows-alt:before {
+  content: "\f31e"; }
+
+.fa-expeditedssl:before {
+  content: "\f23e"; }
+
+.fa-external-link-alt:before {
+  content: "\f35d"; }
+
+.fa-external-link-square-alt:before {
+  content: "\f360"; }
+
+.fa-eye:before {
+  content: "\f06e"; }
+
+.fa-eye-dropper:before {
+  content: "\f1fb"; }
+
+.fa-eye-slash:before {
+  content: "\f070"; }
+
+.fa-facebook:before {
+  content: "\f09a"; }
+
+.fa-facebook-f:before {
+  content: "\f39e"; }
+
+.fa-facebook-messenger:before {
+  content: "\f39f"; }
+
+.fa-facebook-square:before {
+  content: "\f082"; }
+
+.fa-fan:before {
+  content: "\f863"; }
+
+.fa-fantasy-flight-games:before {
+  content: "\f6dc"; }
+
+.fa-fast-backward:before {
+  content: "\f049"; }
+
+.fa-fast-forward:before {
+  content: "\f050"; }
+
+.fa-faucet:before {
+  content: "\f905"; }
+
+.fa-fax:before {
+  content: "\f1ac"; }
+
+.fa-feather:before {
+  content: "\f52d"; }
+
+.fa-feather-alt:before {
+  content: "\f56b"; }
+
+.fa-fedex:before {
+  content: "\f797"; }
+
+.fa-fedora:before {
+  content: "\f798"; }
+
+.fa-female:before {
+  content: "\f182"; }
+
+.fa-fighter-jet:before {
+  content: "\f0fb"; }
+
+.fa-figma:before {
+  content: "\f799"; }
+
+.fa-file:before {
+  content: "\f15b"; }
+
+.fa-file-alt:before {
+  content: "\f15c"; }
+
+.fa-file-archive:before {
+  content: "\f1c6"; }
+
+.fa-file-audio:before {
+  content: "\f1c7"; }
+
+.fa-file-code:before {
+  content: "\f1c9"; }
+
+.fa-file-contract:before {
+  content: "\f56c"; }
+
+.fa-file-csv:before {
+  content: "\f6dd"; }
+
+.fa-file-download:before {
+  content: "\f56d"; }
+
+.fa-file-excel:before {
+  content: "\f1c3"; }
+
+.fa-file-export:before {
+  content: "\f56e"; }
+
+.fa-file-image:before {
+  content: "\f1c5"; }
+
+.fa-file-import:before {
+  content: "\f56f"; }
+
+.fa-file-invoice:before {
+  content: "\f570"; }
+
+.fa-file-invoice-dollar:before {
+  content: "\f571"; }
+
+.fa-file-medical:before {
+  content: "\f477"; }
+
+.fa-file-medical-alt:before {
+  content: "\f478"; }
+
+.fa-file-pdf:before {
+  content: "\f1c1"; }
+
+.fa-file-powerpoint:before {
+  content: "\f1c4"; }
+
+.fa-file-prescription:before {
+  content: "\f572"; }
+
+.fa-file-signature:before {
+  content: "\f573"; }
+
+.fa-file-upload:before {
+  content: "\f574"; }
+
+.fa-file-video:before {
+  content: "\f1c8"; }
+
+.fa-file-word:before {
+  content: "\f1c2"; }
+
+.fa-fill:before {
+  content: "\f575"; }
+
+.fa-fill-drip:before {
+  content: "\f576"; }
+
+.fa-film:before {
+  content: "\f008"; }
+
+.fa-filter:before {
+  content: "\f0b0"; }
+
+.fa-fingerprint:before {
+  content: "\f577"; }
+
+.fa-fire:before {
+  content: "\f06d"; }
+
+.fa-fire-alt:before {
+  content: "\f7e4"; }
+
+.fa-fire-extinguisher:before {
+  content: "\f134"; }
+
+.fa-firefox:before {
+  content: "\f269"; }
+
+.fa-firefox-browser:before {
+  content: "\f907"; }
+
+.fa-first-aid:before {
+  content: "\f479"; }
+
+.fa-first-order:before {
+  content: "\f2b0"; }
+
+.fa-first-order-alt:before {
+  content: "\f50a"; }
+
+.fa-firstdraft:before {
+  content: "\f3a1"; }
+
+.fa-fish:before {
+  content: "\f578"; }
+
+.fa-fist-raised:before {
+  content: "\f6de"; }
+
+.fa-flag:before {
+  content: "\f024"; }
+
+.fa-flag-checkered:before {
+  content: "\f11e"; }
+
+.fa-flag-usa:before {
+  content: "\f74d"; }
+
+.fa-flask:before {
+  content: "\f0c3"; }
+
+.fa-flickr:before {
+  content: "\f16e"; }
+
+.fa-flipboard:before {
+  content: "\f44d"; }
+
+.fa-flushed:before {
+  content: "\f579"; }
+
+.fa-fly:before {
+  content: "\f417"; }
+
+.fa-folder:before {
+  content: "\f07b"; }
+
+.fa-folder-minus:before {
+  content: "\f65d"; }
+
+.fa-folder-open:before {
+  content: "\f07c"; }
+
+.fa-folder-plus:before {
+  content: "\f65e"; }
+
+.fa-font:before {
+  content: "\f031"; }
+
+.fa-font-awesome:before {
+  content: "\f2b4"; }
+
+.fa-font-awesome-alt:before {
+  content: "\f35c"; }
+
+.fa-font-awesome-flag:before {
+  content: "\f425"; }
+
+.fa-font-awesome-logo-full:before {
+  content: "\f4e6"; }
+
+.fa-fonticons:before {
+  content: "\f280"; }
+
+.fa-fonticons-fi:before {
+  content: "\f3a2"; }
+
+.fa-football-ball:before {
+  content: "\f44e"; }
+
+.fa-fort-awesome:before {
+  content: "\f286"; }
+
+.fa-fort-awesome-alt:before {
+  content: "\f3a3"; }
+
+.fa-forumbee:before {
+  content: "\f211"; }
+
+.fa-forward:before {
+  content: "\f04e"; }
+
+.fa-foursquare:before {
+  content: "\f180"; }
+
+.fa-free-code-camp:before {
+  content: "\f2c5"; }
+
+.fa-freebsd:before {
+  content: "\f3a4"; }
+
+.fa-frog:before {
+  content: "\f52e"; }
+
+.fa-frown:before {
+  content: "\f119"; }
+
+.fa-frown-open:before {
+  content: "\f57a"; }
+
+.fa-fulcrum:before {
+  content: "\f50b"; }
+
+.fa-funnel-dollar:before {
+  content: "\f662"; }
+
+.fa-futbol:before {
+  content: "\f1e3"; }
+
+.fa-galactic-republic:before {
+  content: "\f50c"; }
+
+.fa-galactic-senate:before {
+  content: "\f50d"; }
+
+.fa-gamepad:before {
+  content: "\f11b"; }
+
+.fa-gas-pump:before {
+  content: "\f52f"; }
+
+.fa-gavel:before {
+  content: "\f0e3"; }
+
+.fa-gem:before {
+  content: "\f3a5"; }
+
+.fa-genderless:before {
+  content: "\f22d"; }
+
+.fa-get-pocket:before {
+  content: "\f265"; }
+
+.fa-gg:before {
+  content: "\f260"; }
+
+.fa-gg-circle:before {
+  content: "\f261"; }
+
+.fa-ghost:before {
+  content: "\f6e2"; }
+
+.fa-gift:before {
+  content: "\f06b"; }
+
+.fa-gifts:before {
+  content: "\f79c"; }
+
+.fa-git:before {
+  content: "\f1d3"; }
+
+.fa-git-alt:before {
+  content: "\f841"; }
+
+.fa-git-square:before {
+  content: "\f1d2"; }
+
+.fa-github:before {
+  content: "\f09b"; }
+
+.fa-github-alt:before {
+  content: "\f113"; }
+
+.fa-github-square:before {
+  content: "\f092"; }
+
+.fa-gitkraken:before {
+  content: "\f3a6"; }
+
+.fa-gitlab:before {
+  content: "\f296"; }
+
+.fa-gitter:before {
+  content: "\f426"; }
+
+.fa-glass-cheers:before {
+  content: "\f79f"; }
+
+.fa-glass-martini:before {
+  content: "\f000"; }
+
+.fa-glass-martini-alt:before {
+  content: "\f57b"; }
+
+.fa-glass-whiskey:before {
+  content: "\f7a0"; }
+
+.fa-glasses:before {
+  content: "\f530"; }
+
+.fa-glide:before {
+  content: "\f2a5"; }
+
+.fa-glide-g:before {
+  content: "\f2a6"; }
+
+.fa-globe:before {
+  content: "\f0ac"; }
+
+.fa-globe-africa:before {
+  content: "\f57c"; }
+
+.fa-globe-americas:before {
+  content: "\f57d"; }
+
+.fa-globe-asia:before {
+  content: "\f57e"; }
+
+.fa-globe-europe:before {
+  content: "\f7a2"; }
+
+.fa-gofore:before {
+  content: "\f3a7"; }
+
+.fa-golf-ball:before {
+  content: "\f450"; }
+
+.fa-goodreads:before {
+  content: "\f3a8"; }
+
+.fa-goodreads-g:before {
+  content: "\f3a9"; }
+
+.fa-google:before {
+  content: "\f1a0"; }
+
+.fa-google-drive:before {
+  content: "\f3aa"; }
+
+.fa-google-play:before {
+  content: "\f3ab"; }
+
+.fa-google-plus:before {
+  content: "\f2b3"; }
+
+.fa-google-plus-g:before {
+  content: "\f0d5"; }
+
+.fa-google-plus-square:before {
+  content: "\f0d4"; }
+
+.fa-google-wallet:before {
+  content: "\f1ee"; }
+
+.fa-gopuram:before {
+  content: "\f664"; }
+
+.fa-graduation-cap:before {
+  content: "\f19d"; }
+
+.fa-gratipay:before {
+  content: "\f184"; }
+
+.fa-grav:before {
+  content: "\f2d6"; }
+
+.fa-greater-than:before {
+  content: "\f531"; }
+
+.fa-greater-than-equal:before {
+  content: "\f532"; }
+
+.fa-grimace:before {
+  content: "\f57f"; }
+
+.fa-grin:before {
+  content: "\f580"; }
+
+.fa-grin-alt:before {
+  content: "\f581"; }
+
+.fa-grin-beam:before {
+  content: "\f582"; }
+
+.fa-grin-beam-sweat:before {
+  content: "\f583"; }
+
+.fa-grin-hearts:before {
+  content: "\f584"; }
+
+.fa-grin-squint:before {
+  content: "\f585"; }
+
+.fa-grin-squint-tears:before {
+  content: "\f586"; }
+
+.fa-grin-stars:before {
+  content: "\f587"; }
+
+.fa-grin-tears:before {
+  content: "\f588"; }
+
+.fa-grin-tongue:before {
+  content: "\f589"; }
+
+.fa-grin-tongue-squint:before {
+  content: "\f58a"; }
+
+.fa-grin-tongue-wink:before {
+  content: "\f58b"; }
+
+.fa-grin-wink:before {
+  content: "\f58c"; }
+
+.fa-grip-horizontal:before {
+  content: "\f58d"; }
+
+.fa-grip-lines:before {
+  content: "\f7a4"; }
+
+.fa-grip-lines-vertical:before {
+  content: "\f7a5"; }
+
+.fa-grip-vertical:before {
+  content: "\f58e"; }
+
+.fa-gripfire:before {
+  content: "\f3ac"; }
+
+.fa-grunt:before {
+  content: "\f3ad"; }
+
+.fa-guitar:before {
+  content: "\f7a6"; }
+
+.fa-gulp:before {
+  content: "\f3ae"; }
+
+.fa-h-square:before {
+  content: "\f0fd"; }
+
+.fa-hacker-news:before {
+  content: "\f1d4"; }
+
+.fa-hacker-news-square:before {
+  content: "\f3af"; }
+
+.fa-hackerrank:before {
+  content: "\f5f7"; }
+
+.fa-hamburger:before {
+  content: "\f805"; }
+
+.fa-hammer:before {
+  content: "\f6e3"; }
+
+.fa-hamsa:before {
+  content: "\f665"; }
+
+.fa-hand-holding:before {
+  content: "\f4bd"; }
+
+.fa-hand-holding-heart:before {
+  content: "\f4be"; }
+
+.fa-hand-holding-medical:before {
+  content: "\f95c"; }
+
+.fa-hand-holding-usd:before {
+  content: "\f4c0"; }
+
+.fa-hand-holding-water:before {
+  content: "\f4c1"; }
+
+.fa-hand-lizard:before {
+  content: "\f258"; }
+
+.fa-hand-middle-finger:before {
+  content: "\f806"; }
+
+.fa-hand-paper:before {
+  content: "\f256"; }
+
+.fa-hand-peace:before {
+  content: "\f25b"; }
+
+.fa-hand-point-down:before {
+  content: "\f0a7"; }
+
+.fa-hand-point-left:before {
+  content: "\f0a5"; }
+
+.fa-hand-point-right:before {
+  content: "\f0a4"; }
+
+.fa-hand-point-up:before {
+  content: "\f0a6"; }
+
+.fa-hand-pointer:before {
+  content: "\f25a"; }
+
+.fa-hand-rock:before {
+  content: "\f255"; }
+
+.fa-hand-scissors:before {
+  content: "\f257"; }
+
+.fa-hand-sparkles:before {
+  content: "\f95d"; }
+
+.fa-hand-spock:before {
+  content: "\f259"; }
+
+.fa-hands:before {
+  content: "\f4c2"; }
+
+.fa-hands-helping:before {
+  content: "\f4c4"; }
+
+.fa-hands-wash:before {
+  content: "\f95e"; }
+
+.fa-handshake:before {
+  content: "\f2b5"; }
+
+.fa-handshake-alt-slash:before {
+  content: "\f95f"; }
+
+.fa-handshake-slash:before {
+  content: "\f960"; }
+
+.fa-hanukiah:before {
+  content: "\f6e6"; }
+
+.fa-hard-hat:before {
+  nội dung :  "\ f807" ; }
+
+. fa-hashtag : trước {
+  nội dung :  "\ f292" ; }
+
+. fa-hat-cowboy : trước {
+  nội dung :  "\ f8c0" ; }
+
+. fa-hat-cowboy-side : trước {
+  nội dung :  "\ f8c1" ; }
+
+. fa-hat-wizard : before {
+  nội dung :  "\ f6e8" ; }
+
+. fa-hdd : trước {
+  nội dung :  "\ f0a0" ; }
+
+. fa-head-side-ho : trước {
+  nội dung :  "\ f961" ; }
+
+. fa-head-side-ho-chém : trước {
+  nội dung :  "\ f962" ; }
+
+. fa-head-side-mask : trước {
+  nội dung :  "\ f963" ; }
+
+. fa-head-side-virus : trước {
+  nội dung :  "\ f964" ; }
+
+. tiêu đề fa : trước {
+  nội dung :  "\ f1dc" ; }
+
+. tai nghe fa : trước {
+  nội dung :  "\ f025" ; }
+
+. fa-headphone-alt : before {
+  nội dung :  "\ f58f" ; }
+
+. fa-tai nghe : trước {
+  nội dung :  "\ f590" ; }
+
+. fa-heart : trước {
+  nội dung :  "\ f004" ; }
+
+. fa-heart -break : trước khi {
+  nội dung :  "\ f7a9" ; }
+
+. fa-heartbeat : trước {
+  nội dung :  "\ f21e" ; }
+
+. fa-thăng : trước {
+  nội dung :  "\ f533" ; }
+
+. fa-highlighter : trước {
+  nội dung :  "\ f591" ; }
+
+. fa-hiking : trước {
+  nội dung :  "\ f6ec" ; }
+
+. fa-hippo : trước {
+  nội dung :  "\ f6ed" ; }
+
+. fa-hip : trước {
+  nội dung :  "\ f452" ; }
+
+. fa-Rent-a-helper : trước đây {
+  nội dung :  "\ f3b0" ; }
+
+. fa-history : trước {
+  nội dung :  "\ f1da" ; }
+
+. fa-hockey-puck : trước {
+  nội dung :  "\ f453" ; }
+
+. fa-holly-berry : trước {
+  nội dung :  "\ f7aa" ; }
+
+. fa-home : trước {
+  nội dung :  "\ f015" ; }
+
+. fa-hooli : trước {
+  nội dung :  "\ f427" ; }
+
+.fa-hornbill:before {
+  content: "\f592"; }
+
+.fa-horse:before {
+  content: "\f6f0"; }
+
+.fa-horse-head:before {
+  content: "\f7ab"; }
+
+.fa-hospital:before {
+  content: "\f0f8"; }
+
+.fa-hospital-alt:before {
+  content: "\f47d"; }
+
+.fa-hospital-symbol:before {
+  content: "\f47e"; }
+
+.fa-hospital-user:before {
+  content: "\f80d"; }
+
+.fa-hot-tub:before {
+  content: "\f593"; }
+
+.fa-hotdog:before {
+  content: "\f80f"; }
+
+.fa-hotel:before {
+  content: "\f594"; }
+
+.fa-hotjar:before {
+  content: "\f3b1"; }
+
+.fa-hourglass:before {
+  content: "\f254"; }
+
+.fa-hourglass-end:before {
+  content: "\f253"; }
+
+.fa-hourglass-half:before {
+  content: "\f252"; }
+
+.fa-hourglass-start:before {
+  content: "\f251"; }
+
+.fa-house-damage:before {
+  content: "\f6f1"; }
+
+.fa-house-user:before {
+  content: "\f965"; }
+
+.fa-houzz:before {
+  content: "\f27c"; }
+
+.fa-hryvnia:before {
+  content: "\f6f2"; }
+
+.fa-html5:before {
+  content: "\f13b"; }
+
+.fa-hubspot:before {
+  content: "\f3b2"; }
+
+.fa-i-cursor:before {
+  content: "\f246"; }
+
+.fa-ice-cream:before {
+  content: "\f810"; }
+
+.fa-icicles:before {
+  content: "\f7ad"; }
+
+.fa-icons:before {
+  content: "\f86d"; }
+
+.fa-id-badge:before {
+  content: "\f2c1"; }
+
+.fa-id-card:before {
+  content: "\f2c2"; }
+
+.fa-id-card-alt:before {
+  content: "\f47f"; }
+
+.fa-ideal:before {
+  content: "\f913"; }
+
+.fa-igloo:before {
+  content: "\f7ae"; }
+
+.fa-image:before {
+  content: "\f03e"; }
+
+.fa-images:before {
+  content: "\f302"; }
+
+.fa-imdb:before {
+  content: "\f2d8"; }
+
+.fa-inbox:before {
+  content: "\f01c"; }
+
+.fa-indent:before {
+  content: "\f03c"; }
+
+.fa-industry:before {
+  content: "\f275"; }
+
+.fa-infinity:before {
+  content: "\f534"; }
+
+.fa-info:before {
+  content: "\f129"; }
+
+.fa-info-circle:before {
+  content: "\f05a"; }
+
+.fa-instagram:before {
+  content: "\f16d"; }
+
+.fa-instagram-square:before {
+  content: "\f955"; }
+
+.fa-intercom:before {
+  content: "\f7af"; }
+
+.fa-internet-explorer:before {
+  content: "\f26b"; }
+
+.fa-invision:before {
+  content: "\f7b0"; }
+
+.fa-ioxhost:before {
+  content: "\f208"; }
+
+.fa-italic:before {
+  content: "\f033"; }
+
+.fa-itch-io:before {
+  content: "\f83a"; }
+
+.fa-itunes:before {
+  content: "\f3b4"; }
+
+.fa-itunes-note:before {
+  content: "\f3b5"; }
+
+.fa-java:before {
+  content: "\f4e4"; }
+
+.fa-jedi:before {
+  content: "\f669"; }
+
+.fa-jedi-order:before {
+  content: "\f50e"; }
+
+.fa-jenkins:before {
+  content: "\f3b6"; }
+
+.fa-jira:before {
+  content: "\f7b1"; }
+
+.fa-joget:before {
+  content: "\f3b7"; }
+
+.fa-joint:before {
+  content: "\f595"; }
+
+.fa-joomla:before {
+  content: "\f1aa"; }
+
+.fa-journal-whills:before {
+  content: "\f66a"; }
+
+.fa-js:before {
+  content: "\f3b8"; }
+
+.fa-js-square:before {
+  content: "\f3b9"; }
+
+.fa-jsfiddle:before {
+  content: "\f1cc"; }
+
+.fa-kaaba:before {
+  content: "\f66b"; }
+
+.fa-kaggle:before {
+  content: "\f5fa"; }
+
+.fa-key:before {
+  content: "\f084"; }
+
+.fa-keybase:before {
+  content: "\f4f5"; }
+
+.fa-keyboard:before {
+  content: "\f11c"; }
+
+.fa-keycdn:before {
+  content: "\f3ba"; }
+
+.fa-khanda:before {
+  content: "\f66d"; }
+
+.fa-kickstarter:before {
+  content: "\f3bb"; }
+
+.fa-kickstarter-k:before {
+  content: "\f3bc"; }
+
+.fa-kiss:before {
+  content: "\f596"; }
+
+.fa-kiss-beam:before {
+  content: "\f597"; }
+
+.fa-kiss-wink-heart:before {
+  content: "\f598"; }
+
+.fa-kiwi-bird:before {
+  content: "\f535"; }
+
+.fa-korvue:before {
+  content: "\f42f"; }
+
+.fa-landmark:before {
+  content: "\f66f"; }
+
+.fa-language:before {
+  content: "\f1ab"; }
+
+.fa-laptop:before {
+  content: "\f109"; }
+
+.fa-laptop-code:before {
+  content: "\f5fc"; }
+
+.fa-laptop-house:before {
+  content: "\f966"; }
+
+.fa-laptop-medical:before {
+  content: "\f812"; }
+
+.fa-laravel:before {
+  content: "\f3bd"; }
+
+.fa-lastfm:before {
+  content: "\f202"; }
+
+.fa-lastfm-square:before {
+  content: "\f203"; }
+
+.fa-laugh:before {
+  content: "\f599"; }
+
+.fa-laugh-beam:before {
+  content: "\f59a"; }
+
+.fa-laugh-squint:before {
+  content: "\f59b"; }
+
+.fa-laugh-wink:before {
+  content: "\f59c"; }
+
+.fa-layer-group:before {
+  content: "\f5fd"; }
+
+.fa-leaf:before {
+  content: "\f06c"; }
+
+.fa-leanpub:before {
+  content: "\f212"; }
+
+.fa-lemon:before {
+  content: "\f094"; }
+
+.fa-less:before {
+  content: "\f41d"; }
+
+.fa-less-than:before {
+  content: "\f536"; }
+
+.fa-less-than-equal:before {
+  content: "\f537"; }
+
+.fa-level-down-alt:before {
+  content: "\f3be"; }
+
+.fa-level-up-alt:before {
+  content: "\f3bf"; }
+
+.fa-life-ring:before {
+  content: "\f1cd"; }
+
+.fa-lightbulb:before {
+  content: "\f0eb"; }
+
+.fa-line:before {
+  content: "\f3c0"; }
+
+.fa-link:before {
+  content: "\f0c1"; }
+
+.fa-linkedin:before {
+  content: "\f08c"; }
+
+.fa-linkedin-in:before {
+  content: "\f0e1"; }
+
+.fa-linode:before {
+  content: "\f2b8"; }
+
+.fa-linux:before {
+  content: "\f17c"; }
+
+.fa-lira-sign:before {
+  content: "\f195"; }
+
+.fa-list:before {
+  content: "\f03a"; }
+
+.fa-list-alt:before {
+  content: "\f022"; }
+
+.fa-list-ol:before {
+  content: "\f0cb"; }
+
+.fa-list-ul:before {
+  content: "\f0ca"; }
+
+.fa-location-arrow:before {
+  content: "\f124"; }
+
+.fa-lock:before {
+  content: "\f023"; }
+
+.fa-lock-open:before {
+  content: "\f3c1"; }
+
+.fa-long-arrow-alt-down:before {
+  content: "\f309"; }
+
+.fa-long-arrow-alt-left:before {
+  content: "\f30a"; }
+
+.fa-long-arrow-alt-right:before {
+  content: "\f30b"; }
+
+.fa-long-arrow-alt-up:before {
+  content: "\f30c"; }
+
+.fa-low-vision:before {
+  content: "\f2a8"; }
+
+.fa-luggage-cart:before {
+  content: "\f59d"; }
+
+.fa-lungs:before {
+  content: "\f604"; }
+
+.fa-lungs-virus:before {
+  content: "\f967"; }
+
+.fa-lyft:before {
+  content: "\f3c3"; }
+
+.fa-magento:before {
+  content: "\f3c4"; }
+
+.fa-magic:before {
+  content: "\f0d0"; }
+
+.fa-magnet:before {
+  content: "\f076"; }
+
+.fa-mail-bulk:before {
+  content: "\f674"; }
+
+.fa-mailchimp:before {
+  content: "\f59e"; }
+
+.fa-male:before {
+  content: "\f183"; }
+
+.fa-mandalorian:before {
+  content: "\f50f"; }
+
+.fa-map:before {
+  content: "\f279"; }
+
+.fa-map-marked:before {
+  content: "\f59f"; }
+
+.fa-map-marked-alt:before {
+  content: "\f5a0"; }
+
+.fa-map-marker:before {
+  content: "\f041"; }
+
+.fa-map-marker-alt:before {
+  content: "\f3c5"; }
+
+.fa-map-pin:before {
+  content: "\f276"; }
+
+.fa-map-signs:before {
+  content: "\f277"; }
+
+.fa-markdown:before {
+  content: "\f60f"; }
+
+.fa-marker:before {
+  content: "\f5a1"; }
+
+.fa-mars:before {
+  content: "\f222"; }
+
+.fa-mars-double:before {
+  content: "\f227"; }
+
+.fa-mars-stroke:before {
+  content: "\f229"; }
+
+.fa-mars-stroke-h:before {
+  content: "\f22b"; }
+
+.fa-mars-stroke-v:before {
+  content: "\f22a"; }
+
+.fa-mask:before {
+  content: "\f6fa"; }
+
+.fa-mastodon:before {
+  content: "\f4f6"; }
+
+.fa-maxcdn:before {
+  content: "\f136"; }
+
+.fa-mdb:before {
+  content: "\f8ca"; }
+
+.fa-medal:before {
+  content: "\f5a2"; }
+
+.fa-medapps:before {
+  content: "\f3c6"; }
+
+.fa-medium:before {
+  content: "\f23a"; }
+
+.fa-medium-m:before {
+  content: "\f3c7"; }
+
+.fa-medkit:before {
+  content: "\f0fa"; }
+
+.fa-medrt:before {
+  content: "\f3c8"; }
+
+.fa-meetup:before {
+  content: "\f2e0"; }
+
+.fa-megaport:before {
+  content: "\f5a3"; }
+
+.fa-meh:before {
+  content: "\f11a"; }
+
+.fa-meh-blank:before {
+  content: "\f5a4"; }
+
+.fa-meh-rolling-eyes:before {
+  content: "\f5a5"; }
+
+.fa-memory:before {
+  content: "\f538"; }
+
+.fa-mendeley:before {
+  content: "\f7b3"; }
+
+.fa-menorah:before {
+  content: "\f676"; }
+
+.fa-mercury:before {
+  content: "\f223"; }
+
+.fa-meteor:before {
+  content: "\f753"; }
+
+.fa-microblog:before {
+  content: "\f91a"; }
+
+.fa-microchip:before {
+  content: "\f2db"; }
+
+.fa-microphone:before {
+  content: "\f130"; }
+
+.fa-microphone-alt:before {
+  content: "\f3c9"; }
+
+.fa-microphone-alt-slash:before {
+  content: "\f539"; }
+
+.fa-microphone-slash:before {
+  content: "\f131"; }
+
+.fa-microscope:before {
+  content: "\f610"; }
+
+.fa-microsoft:before {
+  content: "\f3ca"; }
+
+.fa-minus:before {
+  content: "\f068"; }
+
+.fa-minus-circle:before {
+  content: "\f056"; }
+
+.fa-minus-square:before {
+  content: "\f146"; }
+
+.fa-mitten:before {
+  content: "\f7b5"; }
+
+.fa-mix:before {
+  content: "\f3cb"; }
+
+.fa-mixcloud:before {
+  content: "\f289"; }
+
+.fa-mixer:before {
+  content: "\f956"; }
+
+.fa-mizuni:before {
+  content: "\f3cc"; }
+
+.fa-mobile:before {
+  content: "\f10b"; }
+
+.fa-mobile-alt:before {
+  content: "\f3cd"; }
+
+.fa-modx:before {
+  content: "\f285"; }
+
+.fa-monero:before {
+  content: "\f3d0"; }
+
+.fa-money-bill:before {
+  content: "\f0d6"; }
+
+.fa-money-bill-alt:before {
+  content: "\f3d1"; }
+
+.fa-money-bill-wave:before {
+  content: "\f53a"; }
+
+.fa-money-bill-wave-alt:before {
+  content: "\f53b"; }
+
+.fa-money-check:before {
+  content: "\f53c"; }
+
+.fa-money-check-alt:before {
+  content: "\f53d"; }
+
+.fa-monument:before {
+  content: "\f5a6"; }
+
+.fa-moon:before {
+  content: "\f186"; }
+
+.fa-mortar-pestle:before {
+  content: "\f5a7"; }
+
+.fa-mosque:before {
+  content: "\f678"; }
+
+.fa-motorcycle:before {
+  content: "\f21c"; }
+
+.fa-mountain:before {
+  content: "\f6fc"; }
+
+.fa-mouse:before {
+  content: "\f8cc"; }
+
+.fa-mouse-pointer:before {
+  content: "\f245"; }
+
+.fa-mug-hot:before {
+  content: "\f7b6"; }
+
+.fa-music:before {
+  content: "\f001"; }
+
+.fa-napster:before {
+  content: "\f3d2"; }
+
+.fa-neos:before {
+  content: "\f612"; }
+
+.fa-network-wired:before {
+  content: "\f6ff"; }
+
+.fa-neuter:before {
+  content: "\f22c"; }
+
+.fa-newspaper:before {
+  content: "\f1ea"; }
+
+.fa-nimblr:before {
+  content: "\f5a8"; }
+
+.fa-node:before {
+  content: "\f419"; }
+
+.fa-node-js:before {
+  content: "\f3d3"; }
+
+.fa-not-equal:before {
+  content: "\f53e"; }
+
+.fa-notes-medical:before {
+  content: "\f481"; }
+
+.fa-npm:before {
+  content: "\f3d4"; }
+
+.fa-ns8:before {
+  content: "\f3d5"; }
+
+.fa-nutritionix:before {
+  content: "\f3d6"; }
+
+.fa-object-group:before {
+  content: "\f247"; }
+
+.fa-object-ungroup:before {
+  content: "\f248"; }
+
+.fa-odnoklassniki:before {
+  content: "\f263"; }
+
+.fa-odnoklassniki-square:before {
+  content: "\f264"; }
+
+.fa-oil-can:before {
+  content: "\f613"; }
+
+.fa-old-republic:before {
+  content: "\f510"; }
+
+.fa-om:before {
+  content: "\f679"; }
+
+.fa-opencart:before {
+  content: "\f23d"; }
+
+.fa-openid:before {
+  content: "\f19b"; }
+
+.fa-opera:before {
+  content: "\f26a"; }
+
+.fa-optin-monster:before {
+  content: "\f23c"; }
+
+.fa-orcid:before {
+  content: "\f8d2"; }
+
+.fa-osi:before {
+  content: "\f41a"; }
+
+.fa-otter:before {
+  content: "\f700"; }
+
+.fa-outdent:before {
+  content: "\f03b"; }
+
+.fa-page4:before {
+  content: "\f3d7"; }
+
+.fa-pagelines:before {
+  content: "\f18c"; }
+
+.fa-pager:before {
+  content: "\f815"; }
+
+.fa-paint-brush:before {
+  content: "\f1fc"; }
+
+.fa-paint-roller:before {
+  content: "\f5aa"; }
+
+.fa-palette:before {
+  content: "\f53f"; }
+
+.fa-palfed:before {
+  content: "\f3d8"; }
+
+.fa-pallet:before {
+  content: "\f482"; }
+
+.fa-paper-plane:before {
+  content: "\f1d8"; }
+
+.fa-paperclip:before {
+  content: "\f0c6"; }
+
+.fa-parachute-box:before {
+  content: "\f4cd"; }
+
+.fa-paragraph:before {
+  content: "\f1dd"; }
+
+.fa-parking:before {
+  content: "\f540"; }
+
+.fa-passport:before {
+  content: "\f5ab"; }
+
+.fa-pastafarianism:before {
+  content: "\f67b"; }
+
+.fa-paste:before {
+  content: "\f0ea"; }
+
+.fa-patreon:before {
+  content: "\f3d9"; }
+
+.fa-pause:before {
+  content: "\f04c"; }
+
+.fa-pause-circle:before {
+  content: "\f28b"; }
+
+.fa-paw:before {
+  content: "\f1b0"; }
+
+.fa-paypal:before {
+  content: "\f1ed"; }
+
+.fa-peace:before {
+  content: "\f67c"; }
+
+.fa-pen:before {
+  content: "\f304"; }
+
+.fa-pen-alt:before {
+  content: "\f305"; }
+
+.fa-pen-fancy:before {
+  content: "\f5ac"; }
+
+.fa-pen-nib:before {
+  content: "\f5ad"; }
+
+.fa-pen-square:before {
+  content: "\f14b"; }
+
+.fa-pencil-alt:before {
+  content: "\f303"; }
+
+.fa-pencil-ruler:before {
+  content: "\f5ae"; }
+
+.fa-penny-arcade:before {
+  content: "\f704"; }
+
+.fa-people-arrows:before {
+  content: "\f968"; }
+
+.fa-people-carry:before {
+  content: "\f4ce"; }
+
+.fa-pepper-hot:before {
+  content: "\f816"; }
+
+.fa-percent:before {
+  content: "\f295"; }
+
+.fa-percentage:before {
+  content: "\f541"; }
+
+.fa-periscope:before {
+  content: "\f3da"; }
+
+.fa-person-booth:before {
+  content: "\f756"; }
+
+.fa-phabricator:before {
+  content: "\f3db"; }
+
+.fa-phoenix-framework:before {
+  content: "\f3dc"; }
+
+.fa-phoenix-squadron:before {
+  content: "\f511"; }
+
+.fa-phone:before {
+  content: "\f095"; }
+
+.fa-phone-alt:before {
+  content: "\f879"; }
+
+.fa-phone-slash:before {
+  content: "\f3dd"; }
+
+.fa-phone-square:before {
+  content: "\f098"; }
+
+.fa-phone-square-alt:before {
+  content: "\f87b"; }
+
+.fa-phone-volume:before {
+  content: "\f2a0"; }
+
+.fa-photo-video:before {
+  content: "\f87c"; }
+
+.fa-php:before {
+  content: "\f457"; }
+
+.fa-pied-piper:before {
+  content: "\f2ae"; }
+
+.fa-pied-piper-alt:before {
+  content: "\f1a8"; }
+
+.fa-pied-piper-hat:before {
+  content: "\f4e5"; }
+
+.fa-pied-piper-pp:before {
+  content: "\f1a7"; }
+
+.fa-pied-piper-square:before {
+  content: "\f91e"; }
+
+.fa-piggy-bank:before {
+  content: "\f4d3"; }
+
+.fa-pills:before {
+  content: "\f484"; }
+
+.fa-pinterest:before {
+  content: "\f0d2"; }
+
+.fa-pinterest-p:before {
+  content: "\f231"; }
+
+.fa-pinterest-square:before {
+  content: "\f0d3"; }
+
+.fa-pizza-slice:before {
+  content: "\f818"; }
+
+.fa-place-of-worship:before {
+  content: "\f67f"; }
+
+.fa-plane:before {
+  content: "\f072"; }
+
+.fa-plane-arrival:before {
+  content: "\f5af"; }
+
+.fa-plane-departure:before {
+  content: "\f5b0"; }
+
+.fa-plane-slash:before {
+  content: "\f969"; }
+
+.fa-play:before {
+  content: "\f04b"; }
+
+.fa-play-circle:before {
+  content: "\f144"; }
+
+.fa-playstation:before {
+  content: "\f3df"; }
+
+.fa-plug:before {
+  content: "\f1e6"; }
+
+.fa-plus:before {
+  content: "\f067"; }
+
+.fa-plus-circle:before {
+  content: "\f055"; }
+
+.fa-plus-square:before {
+  content: "\f0fe"; }
+
+.fa-podcast:before {
+  content: "\f2ce"; }
+
+.fa-poll:before {
+  content: "\f681"; }
+
+.fa-poll-h:before {
+  content: "\f682"; }
+
+.fa-poo:before {
+  content: "\f2fe"; }
+
+.fa-poo-storm:before {
+  content: "\f75a"; }
+
+.fa-poop:before {
+  content: "\f619"; }
+
+.fa-portrait:before {
+  content: "\f3e0"; }
+
+.fa-pound-sign:before {
+  content: "\f154"; }
+
+.fa-power-off:before {
+  content: "\f011"; }
+
+.fa-pray:before {
+  content: "\f683"; }
+
+.fa-praying-hands:before {
+  content: "\f684"; }
+
+.fa-prescription:before {
+  content: "\f5b1"; }
+
+.fa-prescription-bottle:before {
+  content: "\f485"; }
+
+.fa-prescription-bottle-alt:before {
+  content: "\f486"; }
+
+.fa-print:before {
+  content: "\f02f"; }
+
+.fa-procedures:before {
+  content: "\f487"; }
+
+.fa-product-hunt:before {
+  content: "\f288"; }
+
+.fa-project-diagram:before {
+  content: "\f542"; }
+
+.fa-pump-medical:before {
+  content: "\f96a"; }
+
+.fa-pump-soap:before {
+  content: "\f96b"; }
+
+.fa-pushed:before {
+  content: "\f3e1"; }
+
+.fa-puzzle-piece:before {
+  content: "\f12e"; }
+
+.fa-python:before {
+  content: "\f3e2"; }
+
+.fa-qq:before {
+  content: "\f1d6"; }
+
+.fa-qrcode:before {
+  content: "\f029"; }
+
+.fa-question:before {
+  content: "\f128"; }
+
+.fa-question-circle:before {
+  content: "\f059"; }
+
+.fa-quidditch:before {
+  content: "\f458"; }
+
+.fa-quinscape:before {
+  content: "\f459"; }
+
+.fa-quora:before {
+  content: "\f2c4"; }
+
+.fa-quote-left:before {
+  content: "\f10d"; }
+
+.fa-quote-right:before {
+  content: "\f10e"; }
+
+.fa-quran:before {
+  content: "\f687"; }
+
+.fa-r-project:before {
+  content: "\f4f7"; }
+
+.fa-radiation:before {
+  content: "\f7b9"; }
+
+.fa-radiation-alt:before {
+  content: "\f7ba"; }
+
+.fa-rainbow:before {
+  content: "\f75b"; }
+
+.fa-random:before {
+  content: "\f074"; }
+
+.fa-raspberry-pi:before {
+  content: "\f7bb"; }
+
+.fa-ravelry:before {
+  content: "\f2d9"; }
+
+.fa-react:before {
+  content: "\f41b"; }
+
+.fa-reacteurope:before {
+  content: "\f75d"; }
+
+.fa-readme:before {
+  content: "\f4d5"; }
+
+.fa-rebel:before {
+  content: "\f1d0"; }
+
+.fa-receipt:before {
+  content: "\f543"; }
+
+.fa-record-vinyl:before {
+  content: "\f8d9"; }
+
+.fa-recycle:before {
+  content: "\f1b8"; }
+
+.fa-red-river:before {
+  content: "\f3e3"; }
+
+.fa-reddit:before {
+  content: "\f1a1"; }
+
+.fa-reddit-alien:before {
+  content: "\f281"; }
+
+.fa-reddit-square:before {
+  content: "\f1a2"; }
+
+.fa-redhat:before {
+  content: "\f7bc"; }
+
+.fa-redo:before {
+  content: "\f01e"; }
+
+.fa-redo-alt:before {
+  content: "\f2f9"; }
+
+.fa-registered:before {
+  content: "\f25d"; }
+
+.fa-remove-format:before {
+  content: "\f87d"; }
+
+.fa-renren:before {
+  content: "\f18b"; }
+
+.fa-reply:before {
+  content: "\f3e5"; }
+
+.fa-reply-all:before {
+  content: "\f122"; }
+
+.fa-replyd:before {
+  content: "\f3e6"; }
+
+.fa-republican:before {
+  content: "\f75e"; }
+
+.fa-researchgate:before {
+  content: "\f4f8"; }
+
+.fa-resolving:before {
+  content: "\f3e7"; }
+
+.fa-restroom:before {
+  content: "\f7bd"; }
+
+.fa-retweet:before {
+  content: "\f079"; }
+
+.fa-rev:before {
+  content: "\f5b2"; }
+
+.fa-ribbon:before {
+  content: "\f4d6"; }
+
+.fa-ring:before {
+  content: "\f70b"; }
+
+.fa-road:before {
+  content: "\f018"; }
+
+.fa-robot:before {
+  content: "\f544"; }
+
+.fa-rocket:before {
+  content: "\f135"; }
+
+.fa-rocketchat:before {
+  content: "\f3e8"; }
+
+.fa-rockrms:before {
+  content: "\f3e9"; }
+
+.fa-route:before {
+  content: "\f4d7"; }
+
+.fa-rss:before {
+  content: "\f09e"; }
+
+.fa-rss-square:before {
+  content: "\f143"; }
+
+.fa-ruble-sign:before {
+  content: "\f158"; }
+
+.fa-ruler:before {
+  content: "\f545"; }
+
+.fa-ruler-combined:before {
+  content: "\f546"; }
+
+.fa-ruler-horizontal:before {
+  content: "\f547"; }
+
+.fa-ruler-vertical:before {
+  content: "\f548"; }
+
+.fa-running:before {
+  content: "\f70c"; }
+
+.fa-rupee-sign:before {
+  content: "\f156"; }
+
+.fa-sad-cry:before {
+  content: "\f5b3"; }
+
+.fa-sad-tear:before {
+  content: "\f5b4"; }
+
+.fa-safari:before {
+  content: "\f267"; }
+
+.fa-salesforce:before {
+  content: "\f83b"; }
+
+.fa-sass:before {
+  content: "\f41e"; }
+
+.fa-satellite:before {
+  content: "\f7bf"; }
+
+.fa-satellite-dish:before {
+  content: "\f7c0"; }
+
+.fa-save:before {
+  content: "\f0c7"; }
+
+.fa-schlix:before {
+  content: "\f3ea"; }
+
+.fa-school:before {
+  content: "\f549"; }
+
+.fa-screwdriver:before {
+  content: "\f54a"; }
+
+.fa-scribd:before {
+  content: "\f28a"; }
+
+.fa-scroll:before {
+  content: "\f70e"; }
+
+.fa-sd-card:before {
+  content: "\f7c2"; }
+
+.fa-search:before {
+  content: "\f002"; }
+
+.fa-search-dollar:before {
+  content: "\f688"; }
+
+.fa-search-location:before {
+  content: "\f689"; }
+
+.fa-search-minus:before {
+  content: "\f010"; }
+
+.fa-search-plus:before {
+  content: "\f00e"; }
+
+.fa-searchengin:before {
+  content: "\f3eb"; }
+
+.fa-seedling:before {
+  content: "\f4d8"; }
+
+.fa-sellcast:before {
+  content: "\f2da"; }
+
+.fa-sellsy:before {
+  content: "\f213"; }
+
+.fa-server:before {
+  content: "\f233"; }
+
+.fa-servicestack:before {
+  content: "\f3ec"; }
+
+.fa-shapes:before {
+  content: "\f61f"; }
+
+.fa-share:before {
+  content: "\f064"; }
+
+.fa-share-alt:before {
+  content: "\f1e0"; }
+
+.fa-share-alt-square:before {
+  content: "\f1e1"; }
+
+.fa-share-square:before {
+  content: "\f14d"; }
+
+.fa-shekel-sign:before {
+  content: "\f20b"; }
+
+.fa-shield-alt:before {
+  content: "\f3ed"; }
+
+.fa-shield-virus:before {
+  content: "\f96c"; }
+
+.fa-ship:before {
+  content: "\f21a"; }
+
+.fa-shipping-fast:before {
+  content: "\f48b"; }
+
+.fa-shirtsinbulk:before {
+  content: "\f214"; }
+
+.fa-shoe-prints:before {
+  content: "\f54b"; }
+
+.fa-shopify:before {
+  content: "\f957"; }
+
+.fa-shopping-bag:before {
+  content: "\f290"; }
+
+.fa-shopping-basket:before {
+  content: "\f291"; }
+
+.fa-shopping-cart:before {
+  content: "\f07a"; }
+
+.fa-shopware:before {
+  content: "\f5b5"; }
+
+.fa-shower:before {
+  content: "\f2cc"; }
+
+.fa-shuttle-van:before {
+  content: "\f5b6"; }
+
+.fa-sign:before {
+  content: "\f4d9"; }
+
+.fa-sign-in-alt:before {
+  content: "\f2f6"; }
+
+.fa-sign-language:before {
+  content: "\f2a7"; }
+
+.fa-sign-out-alt:before {
+  content: "\f2f5"; }
+
+.fa-signal:before {
+  content: "\f012"; }
+
+.fa-signature:before {
+  content: "\f5b7"; }
+
+.fa-sim-card:before {
+  content: "\f7c4"; }
+
+.fa-simplybuilt:before {
+  content: "\f215"; }
+
+.fa-sistrix:before {
+  content: "\f3ee"; }
+
+.fa-sitemap:before {
+  content: "\f0e8"; }
+
+.fa-sith:before {
+  content: "\f512"; }
+
+.fa-skating:before {
+  content: "\f7c5"; }
+
+.fa-sketch:before {
+  content: "\f7c6"; }
+
+.fa-skiing:before {
+  content: "\f7c9"; }
+
+.fa-skiing-nordic:before {
+  content: "\f7ca"; }
+
+.fa-skull:before {
+  content: "\f54c"; }
+
+.fa-skull-crossbones:before {
+  content: "\f714"; }
+
+.fa-skyatlas:before {
+  content: "\f216"; }
+
+.fa-skype:before {
+  content: "\f17e"; }
+
+.fa-slack:before {
+  content: "\f198"; }
+
+.fa-slack-hash:before {
+  content: "\f3ef"; }
+
+.fa-slash:before {
+  content: "\f715"; }
+
+.fa-sleigh:before {
+  content: "\f7cc"; }
+
+.fa-sliders-h:before {
+  content: "\f1de"; }
+
+.fa-slideshare:before {
+  content: "\f1e7"; }
+
+.fa-smile:before {
+  content: "\f118"; }
+
+.fa-smile-beam:before {
+  content: "\f5b8"; }
+
+.fa-smile-wink:before {
+  content: "\f4da"; }
+
+.fa-smog:before {
+  content: "\f75f"; }
+
+.fa-smoking:before {
+  content: "\f48d"; }
+
+.fa-smoking-ban:before {
+  content: "\f54d"; }
+
+.fa-sms:before {
+  content: "\f7cd"; }
+
+.fa-snapchat:before {
+  content: "\f2ab"; }
+
+.fa-snapchat-ghost:before {
+  content: "\f2ac"; }
+
+.fa-snapchat-square:before {
+  content: "\f2ad"; }
+
+.fa-snowboarding:before {
+  content: "\f7ce"; }
+
+.fa-snowflake:before {
+  content: "\f2dc"; }
+
+.fa-snowman:before {
+  content: "\f7d0"; }
+
+.fa-snowplow:before {
+  content: "\f7d2"; }
+
+.fa-soap:before {
+  content: "\f96e"; }
+
+.fa-socks:before {
+  content: "\f696"; }
+
+.fa-solar-panel:before {
+  content: "\f5ba"; }
+
+.fa-sort:before {
+  content: "\f0dc"; }
+
+.fa-sort-alpha-down:before {
+  content: "\f15d"; }
+
+.fa-sort-alpha-down-alt:before {
+  content: "\f881"; }
+
+.fa-sort-alpha-up:before {
+  content: "\f15e"; }
+
+.fa-sort-alpha-up-alt:before {
+  content: "\f882"; }
+
+.fa-sort-amount-down:before {
+  content: "\f160"; }
+
+.fa-sort-amount-down-alt:before {
+  content: "\f884"; }
+
+.fa-sort-amount-up:before {
+  content: "\f161"; }
+
+.fa-sort-amount-up-alt:before {
+  content: "\f885"; }
+
+.fa-sort-down:before {
+  content: "\f0dd"; }
+
+.fa-sort-numeric-down:before {
+  content: "\f162"; }
+
+.fa-sort-numeric-down-alt:before {
+  content: "\f886"; }
+
+.fa-sort-numeric-up:before {
+  content: "\f163"; }
+
+.fa-sort-numeric-up-alt:before {
+  content: "\f887"; }
+
+.fa-sort-up:before {
+  content: "\f0de"; }
+
+.fa-soundcloud:before {
+  content: "\f1be"; }
+
+.fa-sourcetree:before {
+  content: "\f7d3"; }
+
+.fa-spa:before {
+  content: "\f5bb"; }
+
+.fa-space-shuttle:before {
+  content: "\f197"; }
+
+.fa-speakap:before {
+  content: "\f3f3"; }
+
+.fa-speaker-deck:before {
+  content: "\f83c"; }
+
+.fa-spell-check:before {
+  content: "\f891"; }
+
+.fa-spider:before {
+  content: "\f717"; }
+
+.fa-spinner:before {
+  content: "\f110"; }
+
+.fa-splotch:before {
+  content: "\f5bc"; }
+
+.fa-spotify:before {
+  content: "\f1bc"; }
+
+.fa-spray-can:before {
+  content: "\f5bd"; }
+
+.fa-square:before {
+  content: "\f0c8"; }
+
+.fa-square-full:before {
+  content: "\f45c"; }
+
+.fa-square-root-alt:before {
+  content: "\f698"; }
+
+.fa-squarespace:before {
+  content: "\f5be"; }
+
+.fa-stack-exchange:before {
+  content: "\f18d"; }
+
+.fa-stack-overflow:before {
+  content: "\f16c"; }
+
+.fa-stackpath:before {
+  content: "\f842"; }
+
+.fa-stamp:before {
+  content: "\f5bf"; }
+
+.fa-star:before {
+  content: "\f005"; }
+
+.fa-star-and-crescent:before {
+  content: "\f699"; }
+
+.fa-star-half:before {
+  content: "\f089"; }
+
+.fa-star-half-alt:before {
+  content: "\f5c0"; }
+
+.fa-star-of-david:before {
+  content: "\f69a"; }
+
+.fa-star-of-life:before {
+  content: "\f621"; }
+
+.fa-staylinked:before {
+  content: "\f3f5"; }
+
+.fa-steam:before {
+  content: "\f1b6"; }
+
+.fa-steam-square:before {
+  content: "\f1b7"; }
+
+.fa-steam-symbol:before {
+  content: "\f3f6"; }
+
+.fa-step-backward:before {
+  content: "\f048"; }
+
+.fa-step-forward:before {
+  content: "\f051"; }
+
+.fa-stethoscope:before {
+  content: "\f0f1"; }
+
+.fa-sticker-mule:before {
+  content: "\f3f7"; }
+
+.fa-sticky-note:before {
+  content: "\f249"; }
+
+.fa-stop:before {
+  content: "\f04d"; }
+
+.fa-stop-circle:before {
+  content: "\f28d"; }
+
+.fa-stopwatch:before {
+  content: "\f2f2"; }
+
+.fa-stopwatch-20:before {
+  content: "\f96f"; }
+
+.fa-store:before {
+  content: "\f54e"; }
+
+.fa-store-alt:before {
+  content: "\f54f"; }
+
+.fa-store-alt-slash:before {
+  content: "\f970"; }
+
+.fa-store-slash:before {
+  content: "\f971"; }
+
+.fa-strava:before {
+  content: "\f428"; }
+
+.fa-stream:before {
+  content: "\f550"; }
+
+.fa-street-view:before {
+  content: "\f21d"; }
+
+.fa-strikethrough:before {
+  content: "\f0cc"; }
+
+.fa-stripe:before {
+  content: "\f429"; }
+
+.fa-stripe-s:before {
+  content: "\f42a"; }
+
+.fa-stroopwafel:before {
+  content: "\f551"; }
+
+.fa-studiovinari:before {
+  content: "\f3f8"; }
+
+.fa-stumbleupon:before {
+  content: "\f1a4"; }
+
+.fa-stumbleupon-circle:before {
+  content: "\f1a3"; }
+
+.fa-subscript:before {
+  content: "\f12c"; }
+
+.fa-subway:before {
+  content: "\f239"; }
+
+.fa-suitcase:before {
+  content: "\f0f2"; }
+
+.fa-suitcase-rolling:before {
+  content: "\f5c1"; }
+
+.fa-sun:before {
+  content: "\f185"; }
+
+.fa-superpowers:before {
+  content: "\f2dd"; }
+
+.fa-superscript:before {
+  content: "\f12b"; }
+
+.fa-supple:before {
+  content: "\f3f9"; }
+
+.fa-surprise:before {
+  content: "\f5c2"; }
+
+.fa-suse:before {
+  content: "\f7d6"; }
+
+.fa-swatchbook:before {
+  content: "\f5c3"; }
+
+.fa-swift:before {
+  content: "\f8e1"; }
+
+.fa-swimmer:before {
+  content: "\f5c4"; }
+
+.fa-swimming-pool:before {
+  content: "\f5c5"; }
+
+.fa-symfony:before {
+  content: "\f83d"; }
+
+.fa-synagogue:before {
+  content: "\f69b"; }
+
+.fa-sync:before {
+  content: "\f021"; }
+
+.fa-sync-alt:before {
+  content: "\f2f1"; }
+
+.fa-syringe:before {
+  content: "\f48e"; }
+
+.fa-table:before {
+  content: "\f0ce"; }
+
+.fa-table-tennis:before {
+  content: "\f45d"; }
+
+.fa-tablet:before {
+  content: "\f10a"; }
+
+.fa-tablet-alt:before {
+  content: "\f3fa"; }
+
+.fa-tablets:before {
+  content: "\f490"; }
+
+.fa-tachometer-alt:before {
+  content: "\f3fd"; }
+
+.fa-tag:before {
+  content: "\f02b"; }
+
+.fa-tags:before {
+  content: "\f02c"; }
+
+.fa-tape:before {
+  content: "\f4db"; }
+
+.fa-tasks:before {
+  content: "\f0ae"; }
+
+.fa-taxi:before {
+  content: "\f1ba"; }
+
+.fa-teamspeak:before {
+  content: "\f4f9"; }
+
+.fa-teeth:before {
+  content: "\f62e"; }
+
+.fa-teeth-open:before {
+  content: "\f62f"; }
+
+.fa-telegram:before {
+  content: "\f2c6"; }
+
+.fa-telegram-plane:before {
+  content: "\f3fe"; }
+
+.fa-temperature-high:before {
+  content: "\f769"; }
+
+.fa-temperature-low:before {
+  content: "\f76b"; }
+
+.fa-tencent-weibo:before {
+  content: "\f1d5"; }
+
+.fa-tenge:before {
+  content: "\f7d7"; }
+
+.fa-terminal:before {
+  content: "\f120"; }
+
+.fa-text-height:before {
+  content: "\f034"; }
+
+.fa-text-width:before {
+  content: "\f035"; }
+
+.fa-th:before {
+  content: "\f00a"; }
+
+.fa-th-large:before {
+  content: "\f009"; }
+
+.fa-th-list:before {
+  content: "\f00b"; }
+
+.fa-the-red-yeti:before {
+  content: "\f69d"; }
+
+.fa-theater-masks:before {
+  content: "\f630"; }
+
+.fa-themeco:before {
+  content: "\f5c6"; }
+
+.fa-themeisle:before {
+  content: "\f2b2"; }
+
+.fa-thermometer:before {
+  content: "\f491"; }
+
+.fa-thermometer-empty:before {
+  content: "\f2cb"; }
+
+.fa-thermometer-full:before {
+  content: "\f2c7"; }
+
+.fa-thermometer-half:before {
+  content: "\f2c9"; }
+
+.fa-thermometer-quarter:before {
+  content: "\f2ca"; }
+
+.fa-thermometer-three-quarters:before {
+  content: "\f2c8"; }
+
+.fa-think-peaks:before {
+  content: "\f731"; }
+
+.fa-thumbs-down:before {
+  content: "\f165"; }
+
+.fa-thumbs-up:before {
+  content: "\f164"; }
+
+.fa-thumbtack:before {
+  nội dung :  "\ f08d" ; }
+
+. fa-ticket-alt : trước {
+  nội dung :  "\ f3ff" ; }
+
+. fa-times : trước {
+  nội dung :  "\ f00d" ; }
+
+. fa-times-circle : trước {
+  nội dung :  "\ f057" ; }
+
+. fa-tint : trước {
+  nội dung :  "\ f043" ; }
+
+. fa-tint-slash : trước {
+  nội dung :  "\ f5c7" ; }
+
+. fa-mệt mỏi : trước đây {
+  nội dung :  "\ f5c8" ; }
+
+. fa-toggle-off : trước {
+  nội dung :  "\ f204" ; }
+
+. fa-toggle-on : trước {
+  nội dung :  "\ f205" ; }
+
+. fa-toilet : trước {
+  nội dung :  "\ f7d8" ; }
+
+. fa-toilet-paper : trước {
+  nội dung :  "\ f71e" ; }
+
+. fa-toilet-paper-slash : trước {
+  nội dung :  "\ f972" ; }
+
+. fa-toolbox : trước {
+  nội dung :  "\ f552" ; }
+
+. fa-tools : trước {
+  nội dung :  "\ f7d9" ; }
+
+. fa-răng : trước {
+  nội dung :  "\ f5c9" ; }
+
+. fa-torah : trước {
+  nội dung :  "\ f6a0" ; }
+
+. fa-torii-gate : trước {
+  nội dung :  "\ f6a1" ; }
+
+. fa-tractor : trước {
+  nội dung :  "\ f722" ; }
+
+. fa-trade-Federation : trước {
+  nội dung :  "\ f513" ; }
+
+. fa-nhãn hiệu : trước {
+  nội dung :  "\ f25c" ; }
+
+. fa-traffic-light : before {
+  nội dung :  "\ f637" ; }
+
+. fa-trailer : trước {
+  nội dung :  "\ f941" ; }
+
+. fa-train : trước {
+  nội dung :  "\ f238" ; }
+
+. fa-tram : trước {
+  nội dung :  "\ f7da" ; }
+
+. fa-chuyển giới : trước {
+  nội dung :  "\ f224" ; }
+
+. fa-chuyển giới-alt : trước đây {
+  nội dung :  "\ f225" ; }
+
+. fa-bin : trước {
+  nội dung :  "\ f1f8" ; }
+
+. fa-rác-alt : trước {
+  nội dung :  "\ f2ed" ; }
+
+.fa-trash-restore:before {
+  content: "\f829"; }
+
+.fa-trash-restore-alt:before {
+  content: "\f82a"; }
+
+.fa-tree:before {
+  content: "\f1bb"; }
+
+.fa-trello:before {
+  content: "\f181"; }
+
+.fa-tripadvisor:before {
+  content: "\f262"; }
+
+.fa-trophy:before {
+  nội dung :  "\ f091" ; }
+
+. fa-truck : trước {
+  nội dung :  "\ f0d1" ; }
+
+. fa-truck-loading : trước {
+  nội dung :  "\ f4de" ; }
+
+. fa-truck-monster : trước {
+  nội dung :  "\ f63b" ; }
+
+. fa-xe tải-chuyển : trước {
+  nội dung :  "\ f4df" ; }
+
+. fa-truck-pickup : trước {
+  nội dung :  "\ f63c" ; }
+
+. fa-tshirt : trước {
+  nội dung :  "\ f553" ; }
+
+. fa-tty : trước {
+  nội dung :  "\ f1e4" ; }
+
+. fa-tumblr : trước {
+  nội dung :  "\ f173" ; }
+
+. fa-tumblr-square : trước {
+  nội dung :  "\ f174" ; }
+
+. fa-tv : trước {
+  nội dung :  "\ f26c" ; }
+
+. fa-twitch : trước {
+  nội dung :  "\ f1e8" ; }
+
+. fa-twitter : trước {
+  nội dung :  "\ f099" ; }
+
+. fa-twitter-square : trước {
+  nội dung :  "\ f081" ; }
+
+. fa-typo3 : trước {
+  nội dung :  "\ f42b" ; }
+
+. fa-uber : trước {
+  nội dung :  "\ f402" ; }
+
+. fa-ubuntu : trước {
+  nội dung :  "\ f7df" ; }
+
+. fa-uikit : trước {
+  nội dung :  "\ f403" ; }
+
+. fa-umbraco : trước {
+  nội dung :  "\ f8e8" ; }
+
+. fa-ô : trước {
+  nội dung :  "\ f0e9" ; }
+
+. fa-ô-bãi biển : trước {
+  nội dung :  "\ f5ca" ; }
+
+. fa-underline : trước {
+  nội dung :  "\ f0cd" ; }
+
+. fa-undo : trước {
+  nội dung :  "\ f0e2" ; }
+
+. fa-undo-alt : trước {
+  nội dung :  "\ f2ea" ; }
+
+. fa-uniregistry : trước {
+  nội dung :  "\ f404" ; }
+
+. fa-Thống nhất : trước {
+  nội dung :  "\ f949" ; }
+
+. fa-Universal-access : trước {
+  nội dung :  "\ f29a" ; }
+
+. fa-university : trước {
+  nội dung :  "\ f19c" ; }
+
+.fa-unlink:before {
+  content: "\f127"; }
+
+.fa-unlock:before {
+  content: "\f09c"; }
+
+.fa-unlock-alt:before {
+  content: "\f13e"; }
+
+.fa-untappd:before {
+  content: "\f405"; }
+
+.fa-upload:before {
+  content: "\f093"; }
+
+.fa-ups:before {
+  content: "\f7e0"; }
+
+.fa-usb:before {
+  content: "\f287"; }
+
+.fa-user:before {
+  content: "\f007"; }
+
+.fa-user-alt:before {
+  content: "\f406"; }
+
+.fa-user-alt-slash:before {
+  content: "\f4fa"; }
+
+.fa-user-astronaut:before {
+  content: "\f4fb"; }
+
+.fa-user-check:before {
+  content: "\f4fc"; }
+
+.fa-user-circle:before {
+  content: "\f2bd"; }
+
+.fa-user-clock:before {
+  content: "\f4fd"; }
+
+.fa-user-cog:before {
+  content: "\f4fe"; }
+
+.fa-user-edit:before {
+  content: "\f4ff"; }
+
+.fa-user-friends:before {
+  content: "\f500"; }
+
+.fa-user-graduate:before {
+  content: "\f501"; }
+
+.fa-user-injured:before {
+  content: "\f728"; }
+
+.fa-user-lock:before {
+  content: "\f502"; }
+
+.fa-user-md:before {
+  content: "\f0f0"; }
+
+.fa-user-minus:before {
+  content: "\f503"; }
+
+.fa-user-ninja:before {
+  content: "\f504"; }
+
+.fa-user-nurse:before {
+  content: "\f82f"; }
+
+.fa-user-plus:before {
+  content: "\f234"; }
+
+.fa-user-secret:before {
+  content: "\f21b"; }
+
+.fa-user-shield:before {
+  content: "\f505"; }
+
+.fa-user-slash:before {
+  nội dung :  "\ f506" ; }
+
+. fa-user-tag : trước {
+  nội dung :  "\ f507" ; }
+
+. fa-user-tie : trước {
+  nội dung :  "\ f508" ; }
+
+. fa-user-times : trước {
+  nội dung :  "\ f235" ; }
+
+. fa-users : trước {
+  nội dung :  "\ f0c0" ; }
+
+. fa-users-cog : before {
+  nội dung :  "\ f509" ; }
+
+. fa-usps : trước {
+  nội dung :  "\ f7e1" ; }
+
+. fa-ussunnah : trước {
+  nội dung :  "\ f407" ; }
+
+. fa-Dụng cụ-thìa : trước {
+  nội dung :  "\ f2e5" ; }
+
+. fa-đồ dùng : trước {
+  nội dung :  "\ f2e7" ; }
+
+. fa-vaadin : trước {
+  nội dung :  "\ f408" ; }
+
+. fa-vector-square : before {
+  nội dung :  "\ f5cb" ; }
+
+. fa-venus : trước {
+  nội dung :  "\ f221" ; }
+
+. fa-venus-double : trước {
+  nội dung :  "\ f226" ; }
+
+. fa-venus-mars : trước {
+  nội dung :  "\ f228" ; }
+
+. fa-viacoin : trước {
+  nội dung :  "\ f237" ; }
+
+. fa-viadeo : trước {
+  nội dung :  "\ f2a9" ; }
+
+. fa-viadeo-square : trước {
+  nội dung :  "\ f2aa" ; }
+
+. fa-vial : trước {
+  nội dung :  "\ f492" ; }
+
+. fa-lọ : trước {
+  nội dung :  "\ f493" ; }
+
+. fa-viber : trước {
+  nội dung :  "\ f409" ; }
+
+. fa-video : trước {
+  nội dung :  "\ f03d" ; }
+
+. fa-video-slash : trước {
+  nội dung :  "\ f4e2" ; }
+
+. fa-vihara : trước {
+  nội dung :  "\ f6a7" ; }
+
+. fa-vimeo : trước {
+  nội dung :  "\ f40a" ; }
+
+. fa-vimeo-square : trước {
+  nội dung :  "\ f194" ; }
+
+. fa-vimeo-v : trước {
+  nội dung :  "\ f27d" ; }
+
+. fa-dấm : trước {
+  nội dung :  "\ f1ca" ; }
+
+. fa-virus : trước {
+  nội dung :  "\ f974" ; }
+
+. fa-virus-slash : trước {
+  nội dung :  "\ f975" ; }
+
+. fa-virus : trước {
+  nội dung :  "\ f976" ; }
+
+. fa-vk : trước {
+  nội dung :  "\ f189" ; }
+
+. fa-vnv : trước {
+  nội dung :  "\ f40b" ; }
+
+. fa-voicemail : trước {
+  nội dung :  "\ f897" ; }
+
+. fa-bóng chuyền-bóng : trước {
+  nội dung :  "\ f45f" ; }
+
+. fa-volume-down : trước {
+  nội dung :  "\ f027" ; }
+
+. fa-volume-mute : trước {
+  nội dung :  "\ f6a9" ; }
+
+. fa-volume-off : trước {
+  nội dung :  "\ f026" ; }
+
+. fa-volume-up : trước {
+  nội dung :  "\ f028" ; }
+
+.fa-vote-yea:before {
+  content: "\f772"; }
+
+.fa-vr-cardboard:before {
+  content: "\f729"; }
+
+.fa-vuejs:before {
+  content: "\f41f"; }
+
+.fa-walking:before {
+  content: "\f554"; }
+
+.fa-wallet:before {
+  content: "\f555"; }
+
+.fa-warehouse:before {
+  content: "\f494"; }
+
+.fa-water:before {
+  content: "\f773"; }
+
+.fa-wave-square:before {
+  content: "\f83e"; }
+
+.fa-waze:before {
+  content: "\f83f"; }
+
+.fa-weebly:before {
+  content: "\f5cc"; }
+
+.fa-weibo:before {
+  content: "\f18a"; }
+
+.fa-weight:before {
+  content: "\f496"; }
+
+.fa-weight-hanging:before {
+  content: "\f5cd"; }
+
+.fa-weixin:before {
+  content: "\f1d7"; }
+
+.fa-whatsapp:before {
+  content: "\f232"; }
+
+.fa-whatsapp-square:before {
+  content: "\f40c"; }
+
+.fa-wheelchair:before {
+  nội dung :  "\ f193" ; }
+
+. fa-whmcs : trước {
+  nội dung :  "\ f40d" ; }
+
+. fa-wifi : trước {
+  nội dung :  "\ f1eb" ; }
+
+. fa-wikipedia-w : trước {
+  nội dung :  "\ f266" ; }
+
+. fa-wind : trước {
+  nội dung :  "\ f72e" ; }
+
+. fa-window-close : trước {
+  nội dung :  "\ f410" ; }
+
+. fa-window-max : trước {
+  nội dung :  "\ f2d0" ; }
+
+. fa-window-thu nhỏ : before {
+  nội dung :  "\ f2d1" ; }
+
+. fa-window-restore : before {
+  nội dung :  "\ f2d2" ; }
+
+. fa-windows : trước {
+  nội dung :  "\ f17a" ; }
+
+. fa-wine-chai : trước {
+  nội dung :  "\ f72f" ; }
+
+. fa-wine-glass : trước {
+  nội dung :  "\ f4e3" ; }
+
+. fa-wine-glass-alt : before {
+  nội dung :  "\ f5ce" ; }
+
+. fa-wix : trước {
+  nội dung :  "\ f5cf" ; }
+
+. fa-wizards-of-the-Coast : trước {
+  nội dung :  "\ f730" ; }
+
+. fa-wolf-pack-army : before {
+  nội dung :  "\ f514" ; }
+
+. fa-won-sign : before {
+  nội dung :  "\ f159" ; }
+
+. fa-wordpress : trước {
+  nội dung :  "\ f19a" ; }
+
+. fa-wordpress-simple : before {
+  nội dung :  "\ f411" ; }
+
+. fa-wpbeginner : trước {
+  nội dung :  "\ f297" ; }
+
+. fa-wpexplorer : trước {
+  nội dung :  "\ f2de" ; }
+
+. fa-wpforms : trước {
+  nội dung :  "\ f298" ; }
+
+. fa-wpressr : trước {
+  nội dung :  "\ f3e4" ; }
+
+. fa-wrench : trước {
+  nội dung :  "\ f0ad" ; }
+
+. fa-x-ray : trước {
+  nội dung :  "\ f497" ; }
+
+. fa-xbox : trước {
+  nội dung :  "\ f412" ; }
+
+. fa-xing : trước {
+  nội dung :  "\ f168" ; }
+
+. fa-xing-square : trước {
+  nội dung :  "\ f169" ; }
+
+. fa-y-combinator : trước {
+  nội dung :  "\ f23b" ; }
+
+. fa-yahoo : trước {
+  nội dung :  "\ f19e" ; }
+
+. fa-yammer : trước {
+  nội dung :  "\ f840" ; }
+
+. fa-yandex : trước {
+  nội dung :  "\ f413" ; }
+
+. fa-yandex-international : trước {
+  nội dung :  "\ f414" ; }
+
+. sợi fa : trước {
+  nội dung :  "\ f7e3" ; }
+
+. fa-yelp : trước {
+  nội dung :  "\ f1e9" ; }
+
+. fa-yen-sign : trước {
+  nội dung :  "\ f157" ; }
+
+. fa-âm-dương : trước {
+  nội dung :  "\ f6ad" ; }
+
+. fa-yoast : trước {
+  nội dung :  "\ f2b1" ; }
+
+. fa-youtube : trước {
+  nội dung :  "\ f167" ; }
+
+. fa-youtube-square : trước {
+  nội dung :  "\ f431" ; }
+
+. fa-zhihu : trước {
+  nội dung :  "\ f63f" ; }
+
+. sr-only {
+  viền :  0 ;
+  clip :  direct ( 0 ,  0 ,  0 ,  0 );
+  chiều cao :  1 px ;
+  lề :  -1 px ;
+  tràn : ẩn;
+  đệm :  0 ;
+  vị trí : tuyệt đối;
+  chiều rộng :  1 px ; }
+
+. sr-chỉ-có thể đặt tiêu : tích cực , . sr-only-focusable : tiêu điểm {
+  clip : auto;
+  chiều cao : tự động;
+  lề :  0 ;
+  tràn : nhìn thấy được;
+  vị trí : tĩnh;
+  chiều rộng : tự động; }
+@ font-face {
+  font-family :  'Font Awesome 5 Brands' ;
+  font-style : normal;
+  font-weight :  400 ;
+  font-display : khối;
+  src :  url ( "../webfonts/fa-brands-400.eot" );
+  src :  url ( "../webfonts/fa-brands-400.eot?#iefix" ) định dạng ( "nhúng-opentype" ) ,  url ( "../webfonts/fa-brands-400.woff2" ) định dạng ( "woff2" ) ,  url ( "../webfonts/fa-brands-400.woff" ) định dạng ( "WOFF" ) ,  url ( "../webfonts/fa-brands-400.ttf" ) định dạng ( "truetype " ) ,  url ( " ../webfonts/fa-brands-400.svg#fontawesome ") định dạng( "svg" ); }
+
+. fab {
+  font-family :  'Font Awesome 5 Brands' ;
+  font-weight :  400 ; }
+@ font-face {
+  font-family :  'Font Awesome 5 Miễn phí' ;
+  font-style : normal;
+  font-weight :  400 ;
+  font-display : khối;
+  src :  url ( "../webfonts/fa-regular-400.eot" );
+  src :  url ( "../webfonts/fa-regular-400.eot?#iefix" ) định dạng ( "nhúng-opentype" ) ,  url ( "../webfonts/fa-regular-400.woff2" ) định dạng ( "woff2" ) ,  url ( "../webfonts/fa-regular-400.woff" ) định dạng ( "WOFF" ) ,  url ( "../webfonts/fa-regular-400.ttf" ) định dạng ( "truetype " ) ,  url ( " ../webfonts/fa-regular-400.svg#fontawesome ") định dạng( "svg" ); }
+
+. xa {
+  font-family :  'Font Awesome 5 Miễn phí' ;
+  font-weight :  400 ; }
+@ font-face {
+  font-family :  'Font Awesome 5 Miễn phí' ;
+  font-style : normal;
+  font-weight :  900 ;
+  font-display : khối;
+  src :  url ( "../webfonts/fa-solid-900.eot" );
+  src :  url ( "../webfonts/fa-solid-900.eot?#iefix" ) định dạng ( "nhúng-opentype" ) ,  url ( "../webfonts/fa-solid-900.woff2" ) định dạng ( "woff2" ) ,  url ( "../webfonts/fa-solid-900.woff" ) định dạng ( "WOFF" ) ,  url ( "../webfonts/fa-solid-900.ttf" ) định dạng ( "truetype " ) ,  url ( " ../webfonts/fa-solid-900.svg#fontawesome ") định dạng( "svg" ); }
+
+. fa ,
+. Fas {
+  font-family :  'Font Awesome 5 Miễn phí' ;
+  font-weight :  900 ; }
+
